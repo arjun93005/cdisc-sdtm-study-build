@@ -1,0 +1,201 @@
+SITEID,SUBJID,ICDAT,BRTHDAT,AGE,SEX,ETHNIC,RACE_AMIND,RACE_ASIAN,RACE_BLACK,RACE_NHPI,RACE_WHITE
+101,101-001,10-APR-2025,12-AUG-1981,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-002,04-APR-2025,16-MAY-1969,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-003,23-MAR-2025,15-SEP-1957,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-004,12-MAR-2025,12-SEP-1975,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-005,03-MAR-2025,16-AUG-1963,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-006,11-MAY-2025,04-MAR-1997,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-007,08-MAR-2025,24-JUN-1956,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-008,09-JAN-2025,14-AUG-1956,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-009,21-FEB-2025,25-JUN-1973,,Female,Not Hispanic or Latino,,Checked,,,
+101,101-010,07-JUN-2025,07-APR-1968,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-011,23-JAN-2025,19-MAR-1960,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-012,21-MAY-2025,25-FEB-1970,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-013,20-JUN-2025,23-MAY-1993,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-014,13-FEB-2025,15-OCT-1962,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-015,17-APR-2025,26-JUL-1967,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-016,16-MAY-2025,16-DEC-1957,,Female,Not Hispanic or Latino,Checked,,,,Checked
+101,101-017,23-APR-2025,28-SEP-1977,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-018,20-JAN-2025,02-JUN-1964,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-019,30-MAY-2025,29-JUL-1984,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-020,06-JAN-2025,26-SEP-1975,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-021,14-MAR-2025,12-MAY-1955,,Female,Not Hispanic or Latino,,,Checked,,
+101,101-022,16-APR-2025,13-JUL-1973,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-023,21-MAY-2025,27-FEB-1968,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-024,06-APR-2025,03-JUN-1980,,Male,Hispanic or Latino,,,,,Checked
+101,101-025,14-APR-2025,10-MAY-1949,,Female,Not Hispanic or Latino,Checked,,,,Checked
+101,101-026,10-JUN-2025,20-FEB-1950,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-027,28-JAN-2025,27-MAR-1992,,Female,Not Hispanic or Latino,,Checked,,,
+101,101-028,28-APR-2025,11-FEB-1950,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-029,30-MAR-2025,30-JUN-1956,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-030,27-JAN-2025,09-NOV-1971,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-031,12-MAY-2025,19-AUG-1952,,Male,Not Hispanic or Latino,,,,,Checked
+101,101-032,19-MAR-2025,29-SEP-1949,,Female,Not Hispanic or Latino,,Checked,,,Checked
+101,101-033,21-FEB-2025,25-OCT-1965,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-034,04-MAR-2025,03-APR-1958,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-035,01-MAY-2025,07-JAN-1973,,Male,Hispanic or Latino,,,,,Checked
+101,101-036,25-MAY-2025,06-MAY-1982,,Male,Not Hispanic or Latino,,,Checked,,
+101,101-037,12-JUN-2025,03-JAN-1950,,Male,Hispanic or Latino,,Checked,,,
+101,101-038,02-MAY-2025,04-OCT-1949,,Male,Hispanic or Latino,,,,,Checked
+101,101-039,02-APR-2025,11-SEP-1964,,Female,Not Hispanic or Latino,,,,,Checked
+101,101-040,14-JUN-2025,23-AUG-1949,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-001,27-MAR-2025,17-OCT-1954,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-002,19-JAN-2025,08-JUL-1952,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-003,28-FEB-2025,12-JUL-1982,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-004,06-JUN-2025,07-DEC-1987,,Female,Hispanic or Latino,,,,,Checked
+102,102-005,12-JUN-2025,28-DEC-1964,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-006,03-MAY-2025,07-JUN-1981,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-007,10-JAN-2025,02-NOV-1980,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-008,04-JUN-2025,21-SEP-1965,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-009,08-JAN-2025,31-JUL-1960,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-010,20-JAN-2025,10-DEC-1959,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-011,20-JAN-2025,22-JUL-1965,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-012,16-JAN-2025,22-JUN-1992,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-013,11-FEB-2025,30-AUG-1964,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-014,11-MAR-2025,27-JUN-1961,,Female,Hispanic or Latino,,,,,Checked
+102,102-015,25-FEB-2025,14-OCT-1962,,Male,Hispanic or Latino,,,,,Checked
+102,102-016,17-JUN-2025,26-JUL-1960,,Male,Not Hispanic or Latino,,,Checked,,Checked
+102,102-017,14-JUN-2025,25-DEC-1965,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-018,20-MAY-2025,06-DEC-1980,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-019,29-JAN-2025,22-MAR-1977,,Female,Not Hispanic or Latino,,,Checked,,Checked
+102,102-020,12-JAN-2025,16-NOV-1974,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-021,19-MAR-2025,29-AUG-1977,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-022,02-MAY-2025,30-MAY-1961,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-023,02-MAY-2025,24-MAR-1983,,Female,Not Hispanic or Latino,,,Checked,,
+102,102-024,03-JUN-2025,15-DEC-1966,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-025,18-APR-2025,04-DEC-1979,,Female,Hispanic or Latino,,,,,Checked
+102,102-026,28-FEB-2025,09-JUN-1967,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-027,24-FEB-2025,08-MAY-1965,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-028,23-APR-2025,23-DEC-1953,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-029,06-MAY-2025,04-JAN-1975,,Female,Not Hispanic or Latino,,,Checked,,
+102,102-030,20-APR-2025,28-SEP-1955,,Male,Not Hispanic or Latino,,,Checked,,
+102,102-031,26-APR-2025,22-AUG-1976,,Female,Hispanic or Latino,,,,,Checked
+102,102-032,13-MAY-2025,10-OCT-1988,,Female,Not Hispanic or Latino,,,,,Checked
+102,102-033,18-MAR-2025,26-FEB-1954,,Male,Not Hispanic or Latino,,,,,Checked
+102,102-034,25-MAY-2025,21-NOV-1997,,Female,Not Hispanic or Latino,,,Checked,,
+102,102-035,18-JAN-2025,08-FEB-1972,,Female,Hispanic or Latino,,,,,Checked
+103,103-001,20-JUN-2025,20-NOV-1959,,Female,Not Hispanic or Latino,,Checked,,,
+103,103-002,24-MAY-2025,12-FEB-1961,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-003,02-MAR-2025,23-MAY-1958,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-004,26-MAR-2025,11-AUG-1986,,Female,Not Hispanic or Latino,,Checked,,,
+103,103-005,25-MAR-2025,10-JUL-1978,,Male,Not Hispanic or Latino,,,Checked,,
+103,103-006,02-FEB-2025,21-DEC-1967,,Female,Not Hispanic or Latino,,Checked,,,Checked
+103,103-007,10-JAN-2025,23-AUG-1951,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-008,19-JUN-2025,08-NOV-1972,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-009,06-MAR-2025,19-AUG-1960,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-010,09-MAY-2025,11-NOV-1972,,Male,Not Hispanic or Latino,,,Checked,,
+103,103-011,30-APR-2025,18-OCT-1955,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-012,29-MAR-2025,28-APR-1960,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-013,07-APR-2025,27-OCT-1963,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-014,11-FEB-2025,14-DEC-1949,,Female,Not Hispanic or Latino,,,Checked,,
+103,103-015,08-MAY-2025,27-JUL-1959,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-016,08-JAN-2025,27-AUG-1959,,Male,Hispanic or Latino,,,,,Checked
+103,103-017,24-APR-2025,24-DEC-1972,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-018,27-APR-2025,18-SEP-1961,,Female,Not Hispanic or Latino,,,,Checked,
+103,103-019,07-MAY-2025,07-FEB-1972,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-020,18-APR-2025,02-JAN-1972,,Male,Not Hispanic or Latino,,Checked,,,
+103,103-021,28-APR-2025,15-OCT-1962,,Female,Hispanic or Latino,,,,,Checked
+103,103-022,07-FEB-2025,05-JUL-1967,,Female,Not Hispanic or Latino,,,,,Checked
+103,103-023,07-FEB-2025,28-MAY-1981,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-024,31-MAY-2025,04-JAN-1973,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-025,02-FEB-2025,27-APR-1977,,Female,Hispanic or Latino,,,,,Checked
+103,103-026,16-FEB-2025,27-JUL-1949,,Female,Hispanic or Latino,,,Checked,,
+103,103-027,22-MAR-2025,17-JUL-1979,,Male,Not Hispanic or Latino,,Checked,,,
+103,103-028,17-MAR-2025,16-JUN-1978,,Male,Not Hispanic or Latino,,,Checked,,
+103,103-029,10-JAN-2025,30-JUN-1965,,Male,Not Hispanic or Latino,,,,,Checked
+103,103-030,18-MAY-2025,14-SEP-1957,,Female,Hispanic or Latino,,Checked,,,
+201,201-001,12-JUN-2025,UN-UNK-1968,56,Male,Not Hispanic or Latino,,,,,Checked
+201,201-002,19-MAR-2025,UN-UNK-1958,66,Female,Not Hispanic or Latino,,,,,Checked
+201,201-003,10-MAR-2025,UN-UNK-1971,53,Male,Not Hispanic or Latino,,,,,Checked
+201,201-004,14-APR-2025,UN-UNK-1979,45,Male,Not Hispanic or Latino,,,,,Checked
+201,201-005,21-MAY-2025,UN-UNK-1977,47,Male,Not Hispanic or Latino,,,,,Checked
+201,201-006,20-APR-2025,UN-UNK-1958,66,Male,Not Hispanic or Latino,,,,,Checked
+201,201-007,12-MAY-2025,UN-UNK-1951,73,Male,Not reported,,,,,Checked
+201,201-008,12-MAY-2025,UN-UNK-1965,59,Male,Not Hispanic or Latino,,,,,Checked
+201,201-009,14-JUN-2025,UN-UNK-1975,50,Female,Not Hispanic or Latino,,,,,Checked
+201,201-010,18-MAY-2025,UN-UNK-1972,53,Female,Not Hispanic or Latino,,,,,Checked
+201,201-011,15-JUN-2025,UN-UNK-1974,50,Male,Not Hispanic or Latino,,,,,Checked
+201,201-012,16-JAN-2025,UN-UNK-1966,58,Female,Not Hispanic or Latino,,,,,Checked
+201,201-013,13-JUN-2025,UN-UNK-1970,55,Male,Not Hispanic or Latino,,,,,Checked
+201,201-014,05-MAR-2025,UN-UNK-1981,43,Male,Not Hispanic or Latino,,,,,Checked
+201,201-015,19-APR-2025,UN-UNK-1949,75,Male,Not Hispanic or Latino,,,,,Checked
+201,201-016,06-APR-2025,UN-UNK-1978,47,Female,Not Hispanic or Latino,,,,,Checked
+201,201-017,13-FEB-2025,UN-UNK-1976,48,Male,Not Hispanic or Latino,,,,,Checked
+201,201-018,19-FEB-2025,UN-UNK-1952,72,Female,Not Hispanic or Latino,,,,,Checked
+201,201-019,19-JUN-2025,UN-UNK-1972,53,Female,Not reported,,,,,Checked
+201,201-020,17-JUN-2025,UN-UNK-1961,63,Female,Not Hispanic or Latino,,,,,Checked
+201,201-021,12-JAN-2025,UN-UNK-1973,51,Female,Not Hispanic or Latino,,,,,Checked
+201,201-022,29-JAN-2025,UN-UNK-1957,67,Female,Not Hispanic or Latino,,,,,Checked
+201,201-023,25-APR-2025,UN-UNK-1984,41,Female,Not Hispanic or Latino,,,,,Checked
+201,201-024,17-APR-2025,UN-UNK-1982,42,Male,Not Hispanic or Latino,,,,,Checked
+201,201-025,23-JAN-2025,UN-UNK-1965,59,Female,Not Hispanic or Latino,,,,,Checked
+201,201-026,25-MAR-2025,UN-UNK-1978,46,Male,Not Hispanic or Latino,,,,,Checked
+201,201-027,19-MAY-2025,UN-UNK-1968,56,Female,Not Hispanic or Latino,,,,,Checked
+201,201-028,13-APR-2025,UN-UNK-1964,61,Male,Not Hispanic or Latino,,,,,Checked
+201,201-029,09-APR-2025,UN-UNK-1960,64,Male,Not Hispanic or Latino,,,,,Checked
+201,201-030,02-APR-2025,UN-UNK-1959,66,Male,Not Hispanic or Latino,,,,,Checked
+201,201-031,12-APR-2025,UN-UNK-1972,52,Male,Not Hispanic or Latino,,,,,Checked
+201,201-032,11-MAY-2025,UN-UNK-1950,74,Female,Not reported,,,,,Checked
+201,201-033,22-MAR-2025,UN-UNK-1953,71,Male,Not Hispanic or Latino,,,,,Checked
+201,201-034,06-MAR-2025,UN-UNK-1960,64,Male,Not Hispanic or Latino,,,,,Checked
+201,201-035,07-JAN-2025,UN-UNK-1993,31,Female,Not Hispanic or Latino,,,,,Checked
+202,202-001,03-JUN-2025,UN-UNK-1981,43,Male,Not Hispanic or Latino,,,,,Checked
+202,202-002,10-MAY-2025,UN-UNK-1978,47,Male,Not Hispanic or Latino,,,,,Checked
+202,202-003,30-MAY-2025,UN-UNK-1969,55,Male,Not Hispanic or Latino,,,,,Checked
+202,202-004,11-APR-2025,UN-UNK-1971,53,Male,Not Hispanic or Latino,,,,,Checked
+202,202-005,07-MAY-2025,UN-UNK-1973,51,Male,Not Hispanic or Latino,,,,,Checked
+202,202-006,07-FEB-2025,UN-UNK-1969,55,Male,Not Hispanic or Latino,,,,,Checked
+202,202-007,23-JAN-2025,UN-UNK-1956,68,Male,Not Hispanic or Latino,,,,,Checked
+202,202-008,07-FEB-2025,UN-UNK-1973,51,Male,Not Hispanic or Latino,,,,,Checked
+202,202-009,04-MAR-2025,UN-UNK-1956,68,Female,Not Hispanic or Latino,,,,,Checked
+202,202-010,03-APR-2025,UN-UNK-1955,70,Female,Not reported,,,,,Checked
+202,202-011,15-JAN-2025,UN-UNK-1966,58,Female,Not Hispanic or Latino,,,,,Checked
+202,202-012,22-MAR-2025,UN-UNK-1981,43,Male,Not reported,Checked,,,,Checked
+202,202-013,17-JUN-2025,UN-UNK-1972,53,Male,Not Hispanic or Latino,,,,,Checked
+202,202-014,08-JAN-2025,UN-UNK-1971,53,Female,Not Hispanic or Latino,,,,,Checked
+202,202-015,02-MAR-2025,UN-UNK-1961,64,Female,Not Hispanic or Latino,,,,,Checked
+202,202-016,12-FEB-2025,UN-UNK-1979,45,Male,Not Hispanic or Latino,,,,,Checked
+202,202-017,11-APR-2025,UN-UNK-1969,55,Male,Not Hispanic or Latino,,,,,Checked
+202,202-018,25-FEB-2025,UN-UNK-1987,37,Male,Not Hispanic or Latino,,,,,Checked
+202,202-019,01-MAR-2025,UN-UNK-1968,57,Male,Not Hispanic or Latino,,,,,Checked
+202,202-020,24-APR-2025,UN-UNK-1976,48,Female,Not Hispanic or Latino,,,,,Checked
+202,202-021,19-JAN-2025,UN-UNK-1959,65,Female,Not Hispanic or Latino,,,,,Checked
+202,202-022,11-FEB-2025,UN-UNK-1964,60,Female,Not Hispanic or Latino,,,,,Checked
+202,202-023,10-JAN-2025,UN-UNK-1965,59,Female,Not Hispanic or Latino,,,,,Checked
+202,202-024,17-FEB-2025,UN-UNK-1967,57,Female,Not Hispanic or Latino,,,,,Checked
+202,202-025,29-JAN-2025,UN-UNK-1949,75,Male,Not Hispanic or Latino,,,,,Checked
+202,202-026,17-JUN-2025,UN-UNK-1971,54,Female,Not Hispanic or Latino,,,,,Checked
+202,202-027,09-JAN-2025,UN-UNK-1967,57,Female,Not Hispanic or Latino,,,,,Checked
+202,202-028,14-MAY-2025,UN-UNK-1977,48,Female,Not Hispanic or Latino,,,Checked,,
+202,202-029,03-MAR-2025,UN-UNK-1978,46,Female,Not reported,,,,,Checked
+202,202-030,08-MAR-2025,UN-UNK-1957,67,Female,Not Hispanic or Latino,,,,,Checked
+301,301-001,07-APR-2025,16-NOV-1961,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-002,21-FEB-2025,15-JUL-1975,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-003,27-MAR-2025,29-MAY-1971,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-004,10-JUN-2025,10-MAR-1962,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-005,15-JUN-2025,09-JAN-1980,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-006,25-FEB-2025,11-JUL-1960,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-007,14-JAN-2025,23-JUL-1961,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-008,21-MAR-2025,18-AUG-1959,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-009,12-MAY-2025,01-JAN-1971,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-010,04-MAR-2025,24-JUL-1977,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-011,19-APR-2025,25-SEP-1958,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-012,24-FEB-2025,12-OCT-1971,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-013,30-JAN-2025,19-JUN-1968,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-014,08-FEB-2025,04-OCT-1962,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-015,22-APR-2025,11-JUL-1976,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-016,01-MAY-2025,13-SEP-1969,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-017,06-JUN-2025,17-NOV-1954,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-018,07-MAR-2025,20-NOV-1962,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-019,21-JAN-2025,18-AUG-1973,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-020,31-MAY-2025,11-AUG-1978,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-021,20-MAR-2025,03-AUG-1963,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-022,13-JAN-2025,23-SEP-1975,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-023,19-JAN-2025,24-OCT-1969,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-024,07-FEB-2025,27-FEB-1968,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-025,15-APR-2025,18-AUG-1970,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-026,25-APR-2025,06-AUG-1982,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-027,22-FEB-2025,04-FEB-1956,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-028,23-JAN-2025,14-NOV-1967,,Male,Not Hispanic or Latino,,Checked,,,
+301,301-029,06-JAN-2025,15-OCT-1977,,Female,Not Hispanic or Latino,,Checked,,,
+301,301-030,18-APR-2025,19-DEC-1959,,Male,Not Hispanic or Latino,,Checked,,,

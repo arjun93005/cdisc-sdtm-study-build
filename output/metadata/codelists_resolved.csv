@@ -1,0 +1,130 @@
+CodelistID,Name,CDISCCodelist,Extensible,DataType,Order,Term,Decode,Dictionary,Version,Comment,NCICodelistCode,CTExtensible,NCITermCode,NCIPreferredTerm
+CL.ARMCD,Planned Arm Code,,,text,1,PBO,Placebo,,,Sponsor-defined,,,,
+CL.ARMCD,Planned Arm Code,,,text,2,ZX10,ZX-101 10 mg,,,,,,,
+CL.ARMCD,Planned Arm Code,,,text,3,ZX20,ZX-101 20 mg,,,,,,,
+CL.ARM,Description of Planned Arm,,,text,1,Placebo,,,,Sponsor-defined,,,,
+CL.ARM,Description of Planned Arm,,,text,2,ZX-101 10 mg,,,,,,,,
+CL.ARM,Description of Planned Arm,,,text,3,ZX-101 20 mg,,,,,,,,
+CL.ETCD,Element Code,,,text,1,SCRN,Screening,,,Sponsor-defined,,,,
+CL.ETCD,Element Code,,,text,2,PBO,Placebo,,,,,,,
+CL.ETCD,Element Code,,,text,3,ZX10,ZX-101 10 mg,,,,,,,
+CL.ETCD,Element Code,,,text,4,ZX20,ZX-101 20 mg,,,,,,,
+CL.ETCD,Element Code,,,text,5,FU,Follow-up,,,,,,,
+CL.ELEMENT,Description of Element,,,text,1,Screening,,,,Sponsor-defined,,,,
+CL.ELEMENT,Description of Element,,,text,2,Placebo,,,,,,,,
+CL.ELEMENT,Description of Element,,,text,3,ZX-101 10 mg,,,,,,,,
+CL.ELEMENT,Description of Element,,,text,4,ZX-101 20 mg,,,,,,,,
+CL.ELEMENT,Description of Element,,,text,5,Follow-up,,,,,,,,
+CL.EPOCH,Epoch,EPOCH,Yes,text,1,SCREENING,,,,,C99079,Yes,C202487,Screening Epoch
+CL.EPOCH,Epoch,EPOCH,Yes,text,2,TREATMENT,,,,,C99079,Yes,C101526,Treatment Epoch
+CL.EPOCH,Epoch,EPOCH,Yes,text,3,FOLLOW-UP,,,,,C99079,Yes,C202578,Follow-Up Epoch
+CL.NY,No Yes Response,NY,No,text,1,Y,Yes,,,,C66742,No,C49488,Yes
+CL.NY,No Yes Response,NY,No,text,2,N,No,,,,C66742,No,C49487,No
+CL.SEX,Sex,SEX,No,text,1,F,Female,,,,C66731,No,C16576,Female
+CL.SEX,Sex,SEX,No,text,2,M,Male,,,,C66731,No,C20197,Male
+CL.RACE,Race,RACE,No,text,1,AMERICAN INDIAN OR ALASKA NATIVE,,,,Values per SDTMIG v3.4 DM assumptions; RACE codelist C74457 is not in the pinned CT release (see SDRG),,,,
+CL.RACE,Race,RACE,No,text,2,ASIAN,,,,,,,,
+CL.RACE,Race,RACE,No,text,3,BLACK OR AFRICAN AMERICAN,,,,,,,,
+CL.RACE,Race,RACE,No,text,4,NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,,,,,,,,
+CL.RACE,Race,RACE,No,text,5,WHITE,,,,,,,,
+CL.RACE,Race,RACE,No,text,6,MULTIPLE,,,,SDTMIG v3.4 DM assumption 7,,,,
+CL.ETHNIC,Ethnicity,ETHNIC,No,text,1,HISPANIC OR LATINO,,,,ETHNIC codelist C66790 is not in the pinned CT release (see SDRG),,,,
+CL.ETHNIC,Ethnicity,ETHNIC,No,text,2,NOT HISPANIC OR LATINO,,,,,,,,
+CL.ETHNIC,Ethnicity,ETHNIC,No,text,3,NOT REPORTED,,,,,,,,
+CL.AGEU,Age Unit,AGEU,No,text,1,YEARS,,,,,C66781,No,C29848,Year
+CL.ARMNRS,Arm Null Reason,ARMNULRS,Yes,text,1,SCREEN FAILURE,,,,,C142179,Yes,C49628,Trial Screen Failure
+CL.ARMNRS,Arm Null Reason,ARMNULRS,Yes,text,2,"ASSIGNED, NOT TREATED",,,,,C142179,Yes,C142238,Subject Assigned to Arm But Not Treated
+CL.COUNTRY,Country,,,text,1,*,,ISO 3166-1 alpha-3,2020-08,External dictionary,,,,
+CL.MEDDRA,Adverse Event Dictionary,,,text,1,*,,MedDRA,illustrative,External dictionary (illustrative coding - no licensed MedDRA used),,,,
+CL.WHODRUG,Medication Dictionary,,,text,1,*,,WHODrug Global,illustrative,External dictionary (illustrative coding - no licensed WHODrug used),,,,
+CL.UNIT_DOSE,Dose Unit,UNIT,Yes,text,1,mg,,,,,C71620,Yes,C28253,Milligram
+CL.FREQ,Frequency,FREQ,Yes,text,1,QD,,,,,C71113,Yes,C25473,Daily
+CL.FREQ,Frequency,FREQ,Yes,text,2,BID,,,,,C71113,Yes,C64496,Twice Daily
+CL.FREQ,Frequency,FREQ,Yes,text,3,PRN,,,,,C71113,Yes,C64499,As Needed
+CL.ROUTE,Route of Administration,ROUTE,Yes,text,1,ORAL,,,,,C66729,Yes,C38288,Oral Route of Administration
+CL.FRM,Dosage Form,FRM,Yes,text,1,TABLET,,,,,C66726,Yes,C42998,Tablet Dosage Form
+CL.EXTRT,Name of Treatment,,,text,1,PLACEBO,,,,Sponsor-defined,,,,
+CL.EXTRT,Name of Treatment,,,text,2,ZX-101,,,,,,,,
+CL.AESEV,Severity/Intensity Scale for Adverse Events,AESEV,No,text,1,MILD,,,,,C66769,No,C41338,Mild Adverse Event
+CL.AESEV,Severity/Intensity Scale for Adverse Events,AESEV,No,text,2,MODERATE,,,,,C66769,No,C41339,Moderate Adverse Event
+CL.AESEV,Severity/Intensity Scale for Adverse Events,AESEV,No,text,3,SEVERE,,,,,C66769,No,C41340,Severe Adverse Event
+CL.OUT,Outcome of Event,OUT,No,text,1,RECOVERED/RESOLVED,,,,,C66768,No,C49498,Recovered from Adverse Event
+CL.OUT,Outcome of Event,OUT,No,text,2,RECOVERING/RESOLVING,,,,,C66768,No,C49496,Recovering or Resolving
+CL.OUT,Outcome of Event,OUT,No,text,3,NOT RECOVERED/NOT RESOLVED,,,,,C66768,No,C49494,Not Recovered from Adverse Event
+CL.OUT,Outcome of Event,OUT,No,text,4,FATAL,,,,,C66768,No,C48275,Death Related to Adverse Event
+CL.ACN,Action Taken with Study Treatment,ACN,No,text,1,DOSE NOT CHANGED,,,,,C66767,No,C49504,Dose Not Changed
+CL.ACN,Action Taken with Study Treatment,ACN,No,text,2,DRUG WITHDRAWN,,,,,C66767,No,C49502,Drug Withdrawn
+CL.ACN,Action Taken with Study Treatment,ACN,No,text,3,NOT APPLICABLE,,,,,C66767,No,C48660,Not Applicable
+CL.AEREL,Causality,,,text,1,NOT RELATED,,,,Sponsor-defined (4-point scale per protocol section 10.3),,,,
+CL.AEREL,Causality,,,text,2,UNLIKELY RELATED,,,,,,,,
+CL.AEREL,Causality,,,text,3,POSSIBLY RELATED,,,,,,,,
+CL.AEREL,Causality,,,text,4,RELATED,,,,,,,,
+CL.STENRF,Relation to Reference Period,STENRF,No,text,1,ONGOING,,,,,C66728,No,C53279,Continue
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,1,COMPLETED,,,,,C66727,Yes,C25250,Complete
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,2,ADVERSE EVENT,,,,,C66727,Yes,C41331,Adverse Event
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,3,DEATH,,,,,C66727,Yes,C28554,Dead
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,4,LACK OF EFFICACY,,,,,C66727,Yes,C48226,Lack of Efficacy
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,5,LOST TO FOLLOW-UP,,,,,C66727,Yes,C48227,Lost To Follow-Up
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,6,SCREEN FAILURE,,,,,C66727,Yes,C49628,Trial Screen Failure
+CL.NCOMPLT,Completion/Reason for Non-Completion,NCOMPLT,Yes,text,7,WITHDRAWAL BY SUBJECT,,,,,C66727,Yes,C49634,Withdrawal by Subject
+CL.PROTMLST,Protocol Milestone,PROTMLST,Yes,text,1,INFORMED CONSENT OBTAINED,,,,,C114118,Yes,C16735,Informed Consent
+CL.PROTMLST,Protocol Milestone,PROTMLST,Yes,text,2,RANDOMIZED,,,,,C114118,Yes,C114209,Subject is Randomized
+CL.DSCAT,Category of Disposition Event,DSCAT,No,text,1,DISPOSITION EVENT,,,,,C74558,No,C74590,Protocol Disposition Event
+CL.DSCAT,Category of Disposition Event,DSCAT,No,text,2,PROTOCOL MILESTONE,,,,,C74558,No,C74588,Protocol Milestone
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,1,ALT,Alanine Aminotransferase,,,,C65047,Yes,C64433,Alanine Aminotransferase Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,2,AST,Aspartate Aminotransferase,,,,C65047,Yes,C64467,Aspartate Aminotransferase Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,3,CREAT,Creatinine,,,,C65047,Yes,C64547,Creatinine Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,4,GLUC,Glucose,,,,C65047,Yes,C105585,Glucose Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,5,K,Potassium,,,,C65047,Yes,C64853,Potassium Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,6,SODIUM,Sodium,,,,C65047,Yes,C64809,Sodium Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,7,HGB,Hemoglobin,,,,C65047,Yes,C64848,Hemoglobin Measurement
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,8,PLAT,Platelets,,,,C65047,Yes,C51951,Platelet Count
+CL.LBTESTCD,Laboratory Test Code,LBTESTCD,Yes,text,9,WBC,Leukocytes,,,,C65047,Yes,C51948,Leukocyte Count
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,1,Alanine Aminotransferase,,,,,C67154,Yes,C64433,Alanine Aminotransferase Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,2,Aspartate Aminotransferase,,,,,C67154,Yes,C64467,Aspartate Aminotransferase Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,3,Creatinine,,,,,C67154,Yes,C64547,Creatinine Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,4,Glucose,,,,,C67154,Yes,C105585,Glucose Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,5,Potassium,,,,,C67154,Yes,C64853,Potassium Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,6,Sodium,,,,,C67154,Yes,C64809,Sodium Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,7,Hemoglobin,,,,,C67154,Yes,C64848,Hemoglobin Measurement
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,8,Platelets,,,,,C67154,Yes,C51951,Platelet Count
+CL.LBTEST,Laboratory Test Name,LBTEST,Yes,text,9,Leukocytes,,,,,C67154,Yes,C51948,Leukocyte Count
+CL.LBCAT,Category for Lab Test,,,text,1,CHEMISTRY,,,,Sponsor-defined,,,,
+CL.LBCAT,Category for Lab Test,,,text,2,HEMATOLOGY,,,,,,,,
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,1,U/L,,,,,C71620,Yes,C67456,Unit per Liter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,2,mg/dL,,,,,C71620,Yes,C67015,Milligram per Deciliter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,3,mEq/L,,,,,C71620,Yes,C67474,Milliequivalent per Liter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,4,g/dL,,,,,C71620,Yes,C64783,Gram per Deciliter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,6,umol/L,,,,,C71620,Yes,C48508,Micromole per Liter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,7,mmol/L,,,,,C71620,Yes,C64387,Millimole per Liter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,8,g/L,,,,,C71620,Yes,C42576,Kilogram per Cubic Meter
+CL.LBUNIT,Laboratory Units,UNIT,Yes,text,9,10^9/L,,,,,C71620,Yes,C67255,Billion per Liter
+CL.NRIND,Reference Range Indicator,NRIND,Yes,text,1,LOW,,,,,C78736,Yes,C78801,Value Below Reference Range
+CL.NRIND,Reference Range Indicator,NRIND,Yes,text,2,NORMAL,,,,,C78736,Yes,C78727,Normal Reference Range
+CL.NRIND,Reference Range Indicator,NRIND,Yes,text,3,HIGH,,,,,C78736,Yes,C78800,Value Above Reference Range
+CL.ND,Not Done,ND,No,text,1,NOT DONE,,,,,C66789,No,C49484,Not Done
+CL.SPECTYPE,Specimen Type,SPECTYPE,Yes,text,1,SERUM,,,,,C78734,Yes,C13325,Serum
+CL.SPECTYPE,Specimen Type,SPECTYPE,Yes,text,2,BLOOD,,,,,C78734,Yes,C12434,Blood
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,1,SYSBP,Systolic Blood Pressure,,,,C66741,Yes,C25298,Systolic Blood Pressure
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,2,DIABP,Diastolic Blood Pressure,,,,C66741,Yes,C25299,Diastolic Blood Pressure
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,3,PULSE,Pulse Rate,,,,C66741,Yes,C49676,Pulse Rate
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,4,TEMP,Temperature,,,,C66741,Yes,C174446,Body Temperature
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,5,WEIGHT,Weight,,,,C66741,Yes,C25208,Weight
+CL.VSTESTCD,Vital Signs Test Code,VSTESTCD,Yes,text,6,HEIGHT,Height,,,,C66741,Yes,C25347,Height
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,1,Systolic Blood Pressure,,,,,C67153,Yes,C25298,Systolic Blood Pressure
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,2,Diastolic Blood Pressure,,,,,C67153,Yes,C25299,Diastolic Blood Pressure
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,3,Pulse Rate,,,,,C67153,Yes,C49676,Pulse Rate
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,4,Temperature,,,,,C67153,Yes,C174446,Body Temperature
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,5,Weight,,,,,C67153,Yes,C25208,Weight
+CL.VSTEST,Vital Signs Test Name,VSTEST,Yes,text,6,Height,,,,,C67153,Yes,C25347,Height
+CL.POSITION,Position,POSITION,Yes,text,1,SITTING,,,,,C71148,Yes,C62122,Sitting
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,1,mmHg,,,,,C66770,Yes,C49670,Millimeter of Mercury
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,2,beats/min,,,,,C66770,Yes,C49673,Beats per Minute
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,3,C,,,,,C66770,Yes,C42559,Degree Celsius
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,4,F,,,,,C66770,Yes,C44277,Degree Fahrenheit
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,5,kg,,,,,C66770,Yes,C28252,Kilogram
+CL.VSRESU,Units for Vital Signs Results,VSRESU,Yes,text,6,cm,,,,,C66770,Yes,C49668,Centimeter
+CL.QNAM_DM,Supplemental Qualifier Name (DM),,,text,1,RACE1,Race 1,,,Sponsor-defined,,,,
+CL.QNAM_DM,Supplemental Qualifier Name (DM),,,text,2,RACE2,Race 2,,,,,,,
+CL.TSPARMCD,Trial Summary Parameter Test Code,TSPARMCD,Yes,text,1,*,,,,Terms = TSPARMCD values present in TS (validated against CT by R/01_ct_check.R),C66738,Yes,,
+CL.TSPARM,Trial Summary Parameter Test Name,TSPARM,Yes,text,1,*,,,,Terms = TSPARM values present in TS (taken from CT by R/sdtm/trial_design.R),C67152,Yes,,

@@ -1,0 +1,15 @@
+Dataset,Label,Class,Structure,Purpose,Keys,Repeating,IsReferenceData,Comment
+TA,Trial Arms,TRIAL DESIGN,One record per planned Element per Arm,Tabulation,"STUDYID, ARMCD, TAETORD",Yes,Yes,
+TE,Trial Elements,TRIAL DESIGN,One record per planned Element,Tabulation,"STUDYID, ETCD",Yes,Yes,
+TV,Trial Visits,TRIAL DESIGN,One record per planned Visit per Arm,Tabulation,"STUDYID, VISITNUM",Yes,Yes,Visit schedule is identical for all arms so ARMCD is not included.
+TS,Trial Summary,TRIAL DESIGN,One record per trial summary parameter value,Tabulation,"STUDYID, TSPARMCD, TSSEQ",Yes,Yes,
+DM,Demographics,SPECIAL PURPOSE,One record per subject,Tabulation,"STUDYID, USUBJID",No,No,Includes screen failures (ARMNRS = SCREEN FAILURE).
+SE,Subject Elements,SPECIAL PURPOSE,One record per actual Element per subject,Tabulation,"STUDYID, USUBJID, TAETORD",Yes,No,
+SV,Subject Visits,SPECIAL PURPOSE,One record per actual visit per subject,Tabulation,"STUDYID, USUBJID, VISITNUM",Yes,No,
+CM,Concomitant/Prior Medications,INTERVENTIONS,One record per recorded medication occurrence per subject,Tabulation,"STUDYID, USUBJID, CMTRT, CMSTDTC, CMSPID",Yes,No,
+EX,Exposure,INTERVENTIONS,One record per constant dosing interval per subject,Tabulation,"STUDYID, USUBJID, EXTRT, EXSTDTC",Yes,No,One record per dispensed kit; treatment taken from the unblinded IxRS kit list.
+AE,Adverse Events,EVENTS,One record per adverse event per subject,Tabulation,"STUDYID, USUBJID, AEDECOD, AESTDTC, AESPID",Yes,No,
+DS,Disposition,EVENTS,One record per disposition status or protocol milestone per subject,Tabulation,"STUDYID, USUBJID, DSSTDTC, DSCAT, DSDECOD",Yes,No,
+LB,Laboratory Test Results,FINDINGS,One record per lab test per visit per subject,Tabulation,"STUDYID, USUBJID, LBCAT, LBTESTCD, VISITNUM",Yes,No,Central laboratory data (vendor transfer).
+VS,Vital Signs,FINDINGS,One record per vital sign measurement per replicate per visit per subject,Tabulation,"STUDYID, USUBJID, VSTESTCD, VISITNUM, VSREPNUM",Yes,No,Blood pressure collected in triplicate (VSREPNUM 1-3).
+SUPPDM,Supplemental Qualifiers for DM,RELATIONSHIP,One record per supplemental qualifier per related parent domain record,Tabulation,"STUDYID, RDOMAIN, USUBJID, IDVAR, IDVARVAL, QNAM",Yes,No,

@@ -1,0 +1,285 @@
+SUBJID,AESPID,AETERM,AESTDAT,AEENDAT,AEONGO,AESEV,AESER,AESHOSP,AESDTH,AEREL,AEACN,AEOUT
+101-001,1,Cold,22-APR-2025,01-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-001,2,URTI,03-MAY-2025,07-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-001,3,Worsening hypertension,24-JUL-2025,,Yes,Mild,No,No,No,Not related,Dose not changed,Not recovered/not resolved
+101-002,1,Low back pain,UN-MAY-2025,23-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-003,1,HEADACHE,18-APR-2025,24-APR-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-003,2,Upper respiratory infection,20-JUN-2025,24-JUN-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-004,1,Nasopharyngitis,30-MAR-2025,06-APR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-005,1,Head ache,27-MAY-2025,28-MAY-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-006,1,Pneumonia,27-JUN-2025,24-JUN-2025,No,Severe,Yes,Yes,No,Not related,Dose not changed,Recovering/resolving
+101-006,2,Dizzyness,23-JUL-2025,24-JUL-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-007,1,Feeling dizzy,03-APR-2025,16-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-007,2,High potassium,28-APR-2025,04-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-009,1,Fatigue,23-MAY-2025,27-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-010,1,Nasopharyngitis,27-AUG-2025,02-SEP-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-011,1,Ankle edema,04-FEB-2025,09-FEB-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-011,2,Nasopharyngitis,08-MAY-2025,,Yes,Moderate,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+101-013,1,Common cold,14-SEP-2025,15-SEP-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-013,2,Nasopharyngitis,08-OCT-2025,,Yes,Moderate,No,No,No,Not related,Dose not changed,Not recovered/not resolved
+101-015,1,Backache,21-APR-2025,24-APR-2025,No,Moderate,No,No,No,Not related,Not applicable,Recovering/resolving
+101-015,2,Low back pain,27-MAY-2025,31-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-016,1,Skin rash,28-JUL-2025,31-JUL-2025,No,Mild,No,No,No,Related,Drug withdrawn,Recovered/resolved
+101-018,1,Headache,24-FEB-2025,27-FEB-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-018,2,HEADACHE,16-MAR-2025,17-MAR-2025,No,Severe,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-018,3,Common cold,06-APR-2025,17-APR-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-018,4,Nauseous,23-APR-2025,25-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-019,1,Cold,04-JUN-2025,05-JUN-2025,No,Moderate,No,No,No,Not related,Not applicable,Recovered/resolved
+101-019,2,Fainting episode,28-JUN-2025,05-JUL-2025,No,Moderate,Yes,Yes,No,Related,Dose not changed,Recovered/resolved
+101-019,3,Diarrhea,27-JUL-2025,30-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-019,4,HEADACHE,16-SEP-2025,,Yes,Moderate,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+101-020,1,Dizzyness,22-MAR-2025,18-APR-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+101-021,1,Feeling dizzy,15-APR-2025,21-APR-2025,No,Severe,No,No,No,Related,Dose not changed,Recovered/resolved
+101-022,1,Worsening hypertension,09-JUL-2025,15-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-023,1,Backache,27-JUN-2025,28-JUN-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-023,2,HEADACHE,14-AUG-2025,16-AUG-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-023,3,Loose stools,28-AUG-2025,01-SEP-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovering/resolving
+101-024,1,HEADACHE,01-MAY-2025,10-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-024,2,Joint pain,UN-JUN-2025,06-JUL-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-024,3,Head ache,09-JUL-2025,14-JUL-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-025,1,Fatigue,24-MAY-2025,26-MAY-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-026,1,Joint pain,10-SEP-2025,12-SEP-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-026,2,Tiredness,27-SEP-2025,,Yes,Severe,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+101-027,1,Mild headache,19-MAY-2025,,Yes,Mild,No,No,No,Unlikely related,Dose not changed,Not recovered/not resolved
+101-028,1,Arthralgia,02-JUL-2025,14-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-029,1,Difficulty sleeping,12-APR-2025,13-APR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-029,2,Tired,17-APR-2025,20-APR-2025,No,Severe,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-029,3,Backache,27-APR-2025,30-APR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-030,1,Hypotension,12-FEB-2025,13-FEB-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-030,2,HEADACHE,14-FEB-2025,18-FEB-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-030,3,Headache,21-MAR-2025,25-MAR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-030,4,URTI,24-MAR-2025,04-APR-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-030,5,URTI,04-APR-2025,17-APR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-031,1,Worsening hypertension,15-JUN-2025,28-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-032,1,Head ache,18-JUN-2025,22-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-032,2,Cough,20-JUN-2025,,Yes,Moderate,No,No,No,Related,Dose not changed,Not recovered/not resolved
+101-033,1,Head ache,03-APR-2025,12-APR-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-034,1,Low back pain,08-MAR-2025,09-MAR-2025,No,Moderate,No,No,No,Not related,Not applicable,Recovered/resolved
+101-036,1,Headache,29-MAY-2025,01-JUN-2025,No,Moderate,No,No,No,Not related,Not applicable,Recovered/resolved
+101-036,2,Head ache,UN-JUN-2025,20-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-036,3,Cold,30-JUL-2025,02-AUG-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+101-037,1,Head ache,16-AUG-2025,23-AUG-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+101-040,1,Feeling dizzy,27-JUN-2025,29-JUN-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+101-040,2,Feeling dizzy,UN-JUL-2025,23-JUL-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+102-003,1,Cold,01-JUN-2025,09-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-004,1,Feeling dizzy,23-JUN-2025,30-JUN-2025,No,Severe,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-004,2,Hypotension,30-JUL-2025,06-AUG-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-005,1,Headache,26-AUG-2025,09-SEP-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-005,2,Feeling dizzy,26-AUG-2025,01-SEP-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-005,3,Fatigue,05-SEP-2025,25-SEP-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-006,1,Feeling dizzy,23-JUN-2025,04-JUL-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-006,2,Tiredness,12-AUG-2025,15-AUG-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-007,1,Worsening hypertension,10-MAR-2025,25-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-008,1,URTI,09-JUL-2025,13-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-009,1,Dry cough,18-JAN-2025,01-FEB-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-010,1,Common cold,25-FEB-2025,01-MAR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-011,1,Dizzyness,12-MAR-2025,18-MAR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-011,2,HEADACHE,29-APR-2025,,Yes,Mild,No,No,No,Not related,Dose not changed,Not recovered/not resolved
+102-013,1,Feeling dizzy,06-MAR-2025,29-MAR-2025,No,Severe,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-013,2,Low back pain,27-MAY-2025,29-MAY-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-014,1,Headache,09-JUN-2025,18-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-015,1,Low blood pressure,20-APR-2025,,Yes,Mild,No,No,No,Possibly related,Drug withdrawn,Not recovered/not resolved
+102-017,1,HEADACHE,16-JUN-2025,01-JUL-2025,No,Severe,No,No,No,Not related,Not applicable,Recovered/resolved
+102-017,2,Loose stools,UN-JUL-2025,28-JUL-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-017,3,Headache,03-AUG-2025,22-AUG-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-017,4,HEADACHE,14-AUG-2025,23-AUG-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-017,5,HEADACHE,31-AUG-2025,02-SEP-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-018,1,Feeling dizzy,21-JUN-2025,22-JUN-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-018,2,URTI,UN-JUL-2025,22-JUL-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-019,1,Hyperkalemia,24-APR-2025,01-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-019,2,Swelling of ankles,26-APR-2025,30-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-019,3,Back pain,01-MAY-2025,15-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovering/resolving
+102-020,1,Arthralgia,12-APR-2025,13-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-021,1,Swelling of ankles,28-APR-2025,15-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+102-022,1,Hyperkalemia,22-MAY-2025,24-MAY-2025,No,Severe,No,No,No,Related,Dose not changed,Recovered/resolved
+102-022,2,Back pain,25-MAY-2025,28-MAY-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-022,3,High potassium,08-JUN-2025,16-JUN-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+102-026,1,Cough,04-APR-2025,12-APR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-026,2,Joint pain,02-MAY-2025,03-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-026,3,Common cold,22-MAY-2025,31-MAY-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovering/resolving
+102-027,1,Diarrhea,19-MAR-2025,26-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-028,1,Feeling dizzy,04-JUL-2025,09-JUL-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-029,1,Upper respiratory infection,18-JUL-2025,21-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-030,1,Nausea,03-JUN-2025,04-JUN-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-030,2,Nasopharyngitis,16-JUN-2025,26-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-030,3,Headache,20-JUN-2025,24-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-031,1,Low blood pressure,18-MAY-2025,04-JUL-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+102-031,2,Tired,06-JUN-2025,13-JUN-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+102-033,1,Low back pain,07-JUN-2025,23-JUN-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-033,2,Cold,07-JUN-2025,09-JUN-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-033,3,Dizziness,09-JUN-2025,22-JUN-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+102-034,1,Back pain,10-AUG-2025,11-AUG-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+102-034,2,Cold,11-AUG-2025,12-AUG-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+102-035,1,Acute myocardial infarction,18-MAR-2025,19-MAR-2025,No,Severe,Yes,Yes,Yes,Not related,Not applicable,Fatal
+103-001,1,Head ache,31-AUG-2025,02-SEP-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-001,2,Skin rash,06-SEP-2025,18-SEP-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+103-002,1,Swelling of ankles,31-AUG-2025,01-SEP-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-003,1,Tiredness,14-APR-2025,24-APR-2025,No,Severe,No,No,No,Related,Dose not changed,Recovered/resolved
+103-003,2,Mild headache,29-MAY-2025,13-JUN-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+103-004,1,Cold,28-MAR-2025,01-APR-2025,No,Severe,No,No,No,Not related,Not applicable,Recovering/resolving
+103-004,2,Feeling dizzy,01-MAY-2025,07-MAY-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+103-004,3,HEADACHE,16-MAY-2025,02-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-004,4,Dry cough,31-MAY-2025,05-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-005,1,Low back pain,09-MAY-2025,10-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-005,2,Mild headache,16-MAY-2025,02-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-005,3,Nauseous,05-JUN-2025,08-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-006,1,High potassium,05-APR-2025,13-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-006,2,HEADACHE,15-APR-2025,18-APR-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+103-007,1,Upper respiratory infection,25-JAN-2025,30-JAN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-007,2,Mild headache,06-FEB-2025,10-FEB-2025,No,Mild,No,No,No,Related,Dose not changed,Recovering/resolving
+103-007,3,Feeling dizzy,14-MAR-2025,21-MAR-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+103-007,4,Dry cough,23-MAR-2025,25-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-007,5,Nausea,08-APR-2025,13-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-007,6,Peripheral edema,12-APR-2025,14-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-009,1,Common cold,04-APR-2025,06-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-009,2,Upper respiratory infection,03-MAY-2025,31-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+103-009,3,Difficulty sleeping,22-JUN-2025,24-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-010,1,Difficulty sleeping,14-JUN-2025,15-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-010,2,Tiredness,22-AUG-2025,,Yes,Moderate,No,No,No,Related,Dose not changed,Not recovered/not resolved
+103-013,1,Upper respiratory infection,13-JUN-2025,03-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-013,2,URTI,27-JUL-2025,,Yes,Mild,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+103-015,1,HEADACHE,24-JUL-2025,06-AUG-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-015,2,Tiredness,12-AUG-2025,20-AUG-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-017,1,Dizzyness,23-MAY-2025,24-MAY-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-017,2,Ankle edema,06-AUG-2025,07-AUG-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+103-019,1,Feeling dizzy,27-MAY-2025,28-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+103-019,2,Dry cough,19-JUN-2025,24-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-020,1,Feeling dizzy,10-JUL-2025,15-JUL-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+103-020,2,HEADACHE,02-AUG-2025,,Yes,Mild,No,No,No,Not related,Dose not changed,Not recovered/not resolved
+103-021,1,Tiredness,13-MAY-2025,24-MAY-2025,No,Severe,No,No,No,Related,Dose not changed,Recovered/resolved
+103-022,1,Ankle edema,01-MAR-2025,05-MAR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+103-022,2,Nauseous,07-MAY-2025,,Yes,Mild,No,No,No,Unlikely related,Dose not changed,Not recovered/not resolved
+103-023,1,Low back pain,23-APR-2025,28-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+103-027,1,Headache,UN-APR-2025,20-APR-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+103-027,2,Rash,22-MAY-2025,27-MAY-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+103-027,3,Upper respiratory infection,13-JUN-2025,23-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-028,1,Common cold,11-APR-2025,19-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-028,2,Backache,02-JUN-2025,04-JUN-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-028,3,Loose stools,11-JUN-2025,12-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+103-029,1,Low back pain,13-JAN-2025,14-JAN-2025,No,Mild,No,No,No,Not related,Not applicable,Recovered/resolved
+103-030,1,Common cold,27-JUL-2025,13-AUG-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-002,1,Mild headache,25-APR-2025,26-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-002,2,Dizzyness,06-JUN-2025,15-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-002,3,Nausea,22-JUN-2025,26-JUN-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-003,1,Syncope,26-JUN-2025,,Yes,Severe,Yes,Yes,No,Related,Dose not changed,Not recovered/not resolved
+201-005,1,Upper respiratory infection,24-JUL-2025,29-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-005,2,Joint pain,11-AUG-2025,18-AUG-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-007,1,Low back pain,17-MAY-2025,22-MAY-2025,No,Moderate,No,No,No,Not related,Not applicable,Recovered/resolved
+201-009,1,Loose stools,13-JUL-2025,14-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-011,1,Back pain,17-AUG-2025,31-AUG-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-011,2,Mild headache,28-AUG-2025,23-SEP-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovering/resolving
+201-014,1,Peripheral edema,UN-MAY-2025,12-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-014,2,URTI,19-MAY-2025,27-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-015,1,Swelling of ankles,14-MAY-2025,19-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-015,2,Insomnia,26-MAY-2025,22-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-015,3,Difficulty sleeping,30-JUN-2025,02-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-016,1,Tired,15-MAY-2025,20-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-017,1,HEADACHE,04-MAY-2025,11-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-017,2,Uncontrolled blood pressure,12-MAY-2025,15-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-018,1,Common cold,30-MAY-2025,01-JUN-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-019,1,Hypotension,15-JUL-2025,12-AUG-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+201-019,2,Dizzyness,03-AUG-2025,05-SEP-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-019,3,Dizzyness,08-AUG-2025,10-AUG-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+201-023,1,Skin rash,10-MAY-2025,12-MAY-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-023,2,Nausea,31-JUL-2025,04-AUG-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-023,3,Nasopharyngitis,12-AUG-2025,13-AUG-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-024,1,Nasopharyngitis,11-JUN-2025,14-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-024,2,Upper respiratory infection,21-JUN-2025,28-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-024,3,Feeling dizzy,18-JUL-2025,30-JUL-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-025,1,Tiredness,25-FEB-2025,26-FEB-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-025,2,Tired,15-APR-2025,16-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-025,3,Hypotension,07-MAY-2025,11-MAY-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-026,1,Hyperkalemia,03-APR-2025,04-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-026,2,Feeling dizzy,26-MAY-2025,28-MAY-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-027,1,Dry cough,25-JUN-2025,03-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-027,2,Mild headache,05-JUL-2025,19-JUL-2025,No,Mild,No,No,No,Related,Dose not changed,Recovering/resolving
+201-027,3,Tiredness,12-JUL-2025,26-JUL-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovering/resolving
+201-028,1,Loose stools,27-APR-2025,07-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovering/resolving
+201-029,1,Diarrhea,16-JUL-2025,24-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-030,1,Skin rash,04-JUN-2025,10-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-030,2,Hyperkalemia,22-JUN-2025,24-JUN-2025,No,Mild,No,No,No,Possibly related,Drug withdrawn,Recovering/resolving
+201-031,1,Dizzyness,06-MAY-2025,07-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+201-031,2,Diarrhea,14-JUL-2025,28-JUL-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-032,1,Arthralgia,20-AUG-2025,,Yes,Mild,No,No,No,Unlikely related,Dose not changed,Not recovered/not resolved
+201-033,1,Joint pain,08-MAY-2025,13-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-033,2,Hypotension,18-MAY-2025,25-MAY-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+201-033,3,Upper respiratory infection,18-MAY-2025,20-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-033,4,Dizzyness,29-MAY-2025,31-MAY-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+201-034,1,Mild headache,23-APR-2025,25-APR-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-034,2,Tiredness,23-APR-2025,26-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+201-035,1,Dizziness,02-MAR-2025,11-MAR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-001,1,Tiredness,24-JUN-2025,03-JUL-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-001,2,URTI,15-AUG-2025,17-AUG-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-002,1,Mild headache,18-JUN-2025,22-JUN-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-002,2,Difficulty sleeping,27-JUN-2025,29-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-002,3,Insomnia,07-JUL-2025,16-JUL-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-003,1,HEADACHE,30-AUG-2025,05-SEP-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-004,1,Head ache,20-MAY-2025,21-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-004,2,Uncontrolled blood pressure,25-MAY-2025,03-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-005,1,High potassium,09-JUL-2025,22-JUL-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-006,1,Headache,07-APR-2025,10-APR-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+202-006,2,Loose stools,13-MAY-2025,16-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-006,3,HEADACHE,17-MAY-2025,,Yes,Mild,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+202-007,1,High potassium,18-FEB-2025,02-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-007,2,Cold,08-MAR-2025,20-MAR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-008,1,Head ache,23-FEB-2025,24-FEB-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-010,1,Cold,14-JUN-2025,27-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-011,1,HEADACHE,22-FEB-2025,23-FEB-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-012,1,Hyperkalemia,12-APR-2025,14-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-012,2,Hypotension,20-MAY-2025,24-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-012,3,HEADACHE,24-MAY-2025,13-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-012,4,High potassium,20-JUN-2025,29-JUN-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+202-014,1,Joint pain,28-MAR-2025,30-MAR-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-014,2,HEADACHE,05-APR-2025,14-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovering/resolving
+202-016,1,Dizziness,31-MAR-2025,03-APR-2025,No,Severe,No,No,No,Related,Dose not changed,Recovered/resolved
+202-017,1,Upper respiratory infection,26-JUL-2025,29-JUL-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-017,2,Syncope,28-JUL-2025,29-JUL-2025,No,Severe,Yes,Yes,No,Possibly related,Dose not changed,Recovered/resolved
+202-018,1,Fatigue,27-APR-2025,01-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-019,1,Common cold,06-APR-2025,09-MAY-2025,No,Severe,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-020,1,Swelling of ankles,08-MAY-2025,11-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-022,1,Community acquired pneumonia,03-APR-2025,09-APR-2025,No,Severe,Yes,Yes,No,Not related,Dose not changed,Recovered/resolved
+202-022,2,Worsening hypertension,11-APR-2025,18-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-022,3,Uncontrolled blood pressure,23-APR-2025,27-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-023,1,Ankle edema,20-MAR-2025,22-MAR-2025,No,Moderate,No,No,No,Related,Dose not changed,Recovered/resolved
+202-026,1,Dizzyness,13-AUG-2025,16-AUG-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-026,2,Cold,05-SEP-2025,10-SEP-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-028,1,Hypotension,18-JUN-2025,06-JUL-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+202-028,2,Dizzyness,07-JUL-2025,21-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+202-029,1,Nausea,10-JUN-2025,15-JUN-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+202-030,1,URTI,07-MAY-2025,08-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-002,1,Nauseous,13-MAR-2025,27-MAR-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-002,2,URTI,13-MAR-2025,25-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-002,3,URTI,26-MAR-2025,27-MAR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-003,1,High potassium,03-JUN-2025,18-JUN-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+301-004,1,Loose stools,06-JUL-2025,08-JUL-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-005,1,Headache,09-JUL-2025,11-JUL-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-007,1,Upper respiratory infection,13-FEB-2025,02-MAR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-007,2,Uncontrolled blood pressure,29-APR-2025,01-MAY-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-008,1,Dizziness,31-MAR-2025,05-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-008,2,Common cold,16-APR-2025,23-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-009,1,Feeling dizzy,16-JUN-2025,23-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-009,2,Upper respiratory infection,19-JUL-2025,15-AUG-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-010,1,Upper respiratory infection,09-APR-2025,13-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-010,2,Headache,20-APR-2025,22-APR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-010,3,Nasopharyngitis,02-MAY-2025,14-MAY-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-010,4,HEADACHE,17-MAY-2025,10-JUN-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-010,5,Nasopharyngitis,06-JUN-2025,08-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-011,1,High potassium,23-JUN-2025,17-JUL-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+301-011,2,Mild headache,06-JUL-2025,08-JUL-2025,No,Severe,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-012,1,Fatigue,UN-APR-2025,07-APR-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+301-013,1,Dizzyness,22-FEB-2025,21-MAR-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-013,2,Headache,17-APR-2025,06-MAY-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-014,1,Headache,27-MAR-2025,01-APR-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-014,2,Insomnia,UN-APR-2025,15-APR-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-016,1,Insomnia,26-JUN-2025,08-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-020,1,Cough,10-JUL-2025,12-JUL-2025,No,Mild,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-020,2,Headache,12-AUG-2025,13-AUG-2025,No,Mild,No,No,No,Related,Dose not changed,Recovered/resolved
+301-021,1,Joint pain,22-APR-2025,24-APR-2025,No,Moderate,No,No,No,Unlikely related,Dose not changed,Recovered/resolved
+301-021,2,Common cold,03-JUN-2025,04-JUN-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-023,1,Loose stools,23-MAR-2025,04-APR-2025,No,Moderate,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-023,2,Cough,05-MAY-2025,,Yes,Mild,No,No,No,Possibly related,Dose not changed,Not recovered/not resolved
+301-026,1,Headache,11-JUN-2025,29-JUN-2025,No,Moderate,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-029,1,Dizzyness,11-MAR-2025,22-MAR-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved
+301-029,2,Upper respiratory infection,19-APR-2025,20-APR-2025,No,Mild,No,No,No,Not related,Dose not changed,Recovered/resolved
+301-029,3,Pneumonia,21-APR-2025,,Yes,Moderate,Yes,Yes,No,Not related,Dose not changed,Not recovered/not resolved
+301-030,1,Headache,16-JUL-2025,22-JUL-2025,No,Mild,No,No,No,Possibly related,Dose not changed,Recovered/resolved

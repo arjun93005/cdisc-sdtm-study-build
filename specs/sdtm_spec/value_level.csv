@@ -1,0 +1,14 @@
+Dataset,Variable,WhereVariable,WhereValue,DataType,Length,Codelist,Origin,Source,Pages,Method,Description
+VS,VSORRES,VSTESTCD,SYSBP,integer,3,,Collected,Investigator,Vital Signs,,"Systolic BP, seated, triplicate (mmHg)"
+VS,VSORRES,VSTESTCD,DIABP,integer,3,,Collected,Investigator,Vital Signs,,"Diastolic BP, seated, triplicate (mmHg)"
+VS,VSORRES,VSTESTCD,PULSE,integer,3,,Collected,Investigator,Vital Signs,,Pulse rate (beats/min)
+VS,VSORRES,VSTESTCD,TEMP,float,5,,Collected,Investigator,Vital Signs,,Temperature in the unit collected (C or F)
+VS,VSORRES,VSTESTCD,WEIGHT,float,5,,Collected,Investigator,Vital Signs,,Weight (kg)
+VS,VSORRES,VSTESTCD,HEIGHT,integer,3,,Collected,Investigator,Vital Signs,,Height (cm); Screening only
+VS,VSSTRESN,VSTESTCD,TEMP,float,8,,Derived,Sponsor,,"If VSORRESU = 'F' then (VSORRES - 32) * 5/9 rounded to 1 decimal, else VSORRES.",Temperature in C
+LB,LBORRES,LBCAT,CHEMISTRY,text,6,,Collected,Vendor,,,Chemistry result as reported by the central lab
+LB,LBORRES,LBCAT,HEMATOLOGY,text,6,,Collected,Vendor,,,Hematology result as reported by the central lab
+DS,DSDECOD,DSCAT,DISPOSITION EVENT,text,25,CL.NCOMPLT,Derived,Sponsor,,CRF reason for non-completion mapped to NCOMPLT; COMPLETED when the subject completed.,Disposition event
+DS,DSDECOD,DSCAT,PROTOCOL MILESTONE,text,25,CL.PROTMLST,Assigned,Sponsor,,,Protocol milestone
+SUPPDM,QVAL,QNAM,RACE1,text,40,CL.RACE,Collected,Investigator,Demographics,,First race checked (alphabetical) when more than one race is checked
+SUPPDM,QVAL,QNAM,RACE2,text,40,CL.RACE,Collected,Investigator,Demographics,,Second race checked (alphabetical) when more than one race is checked

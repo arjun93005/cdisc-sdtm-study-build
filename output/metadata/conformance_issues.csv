@@ -1,0 +1,16 @@
+RuleID,Domain,USUBJID,Detail
+ZX-002,AE,,"Not present: AELLTCD, AEPTCD, AEHLTCD, AEHLGTCD, AEBDSYCD, AESOCCD"
+ZX-008,AE,ZX-201-101-006,AESTDTC=2025-06-27 > AEENDTC=2025-06-24
+ZX-012,AE,ZX-201-101-002,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-101-024,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-101-036,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-101-040,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-102-017,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-102-018,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-103-027,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-201-014,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-301-012,EPOCH null: AESTDTC is a partial date
+ZX-012,AE,ZX-201-301-014,EPOCH null: AESTDTC is a partial date
+ZX-025,VS,ZX-201-101-002,WEEK 4 WEIGHT 194.4 kg vs baseline 86.3 kg
+ZX-029,ALL,,CL.RACE Codelist RACE is not present in the pinned CT release; values follow SDTMIG v3.4 assumptions
+ZX-029,ALL,,CL.ETHNIC Codelist ETHNIC is not present in the pinned CT release; values follow SDTMIG v3.4 assumptions

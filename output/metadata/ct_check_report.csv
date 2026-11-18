@@ -1,0 +1,3 @@
+Severity,CodelistID,Term,Message
+WARNING,CL.RACE,,Codelist RACE is not present in the pinned CT release; values follow SDTMIG v3.4 assumptions
+WARNING,CL.ETHNIC,,Codelist ETHNIC is not present in the pinned CT release; values follow SDTMIG v3.4 assumptions

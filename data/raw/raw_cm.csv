@@ -1,0 +1,165 @@
+SUBJID,CMSPID,CMTRT,CMINDC,CMDSTXT,CMDOSU,CMFREQ,CMROUTE,CMSTDAT,CMENDAT,CMONGO
+101-003,1,Acetaminophen,Headache,500,mg,As needed,Oral,18-APR-2025,20-APR-2025,No
+101-005,1,Paracetamol,Headache,500,mg,As needed,Oral,27-MAY-2025,30-MAY-2025,No
+101-007,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2022,,Yes
+101-011,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-OCT-2018,,Yes
+101-015,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-NOV-2017,,Yes
+101-015,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-FEB-2020,,Yes
+101-015,3,Ibuprofen,Back pain,400,mg,As needed,Oral,27-MAY-2025,31-MAY-2025,No
+101-018,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JUL-2019,,Yes
+101-018,2,Acetaminophen,Headache,500,mg,As needed,Oral,24-FEB-2025,26-FEB-2025,No
+101-018,3,Acetaminophen,Headache,500,mg,As needed,Oral,16-MAR-2025,20-MAR-2025,No
+101-019,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2018,,Yes
+101-021,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-MAY-2024,,Yes
+101-023,1,Acetaminophen,Headache,500,mg,As needed,Oral,14-AUG-2025,15-AUG-2025,No
+101-024,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2020,,Yes
+101-024,2,Paracetamol,Headache,500,mg,As needed,Oral,01-MAY-2025,02-MAY-2025,No
+101-024,3,Acetaminophen,Headache,500,mg,As needed,Oral,09-JUL-2025,12-JUL-2025,No
+101-027,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-SEP-2020,,Yes
+101-027,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2019,,Yes
+101-028,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2019,,Yes
+101-028,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2020,,Yes
+101-029,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2020,,Yes
+101-029,2,Advil,Back pain,400,mg,As needed,Oral,27-APR-2025,29-APR-2025,No
+101-030,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2023,,Yes
+101-030,2,Omeprazole,GERD,20,mg,Once daily,Oral,UN-SEP-2023,,Yes
+101-030,3,Paracetamol,Headache,500,mg,As needed,Oral,14-FEB-2025,15-FEB-2025,No
+101-032,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2023,,Yes
+101-032,2,Tylenol,Headache,500,mg,As needed,Oral,18-JUN-2025,20-JUN-2025,No
+101-033,1,Paracetamol,Headache,500,mg,As needed,Oral,03-APR-2025,04-APR-2025,No
+101-034,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-FEB-2020,,Yes
+101-035,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2021,,Yes
+101-035,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2019,,Yes
+101-036,1,Acetaminophen,Headache,500,mg,As needed,Oral,29-MAY-2025,30-MAY-2025,No
+101-037,1,Acetaminophen,Headache,500,mg,As needed,Oral,16-AUG-2025,18-AUG-2025,No
+102-003,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2017,,Yes
+102-004,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-APR-2021,,Yes
+102-004,2,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2021,,Yes
+102-004,3,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2023,,Yes
+102-005,1,Paracetamol,Headache,500,mg,As needed,Oral,26-AUG-2025,27-AUG-2025,No
+102-007,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2020,,Yes
+102-009,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-JUL-2019,,Yes
+102-010,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2019,,Yes
+102-011,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2019,,Yes
+102-011,2,Tylenol,Headache,500,mg,As needed,Oral,29-APR-2025,01-MAY-2025,No
+102-014,1,Tylenol,Headache,500,mg,As needed,Oral,09-JUN-2025,12-JUN-2025,No
+102-015,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-NOV-2023,,Yes
+102-017,1,Paracetamol,Headache,500,mg,As needed,Oral,16-JUN-2025,20-JUN-2025,No
+102-017,2,Acetaminophen,Headache,500,mg,As needed,Oral,31-AUG-2025,04-SEP-2025,No
+102-018,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2020,,Yes
+102-019,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2016,,Yes
+102-019,2,Advil,Back pain,400,mg,As needed,Oral,01-MAY-2025,02-MAY-2025,No
+102-021,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2020,,Yes
+102-022,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-MAR-2020,,Yes
+102-022,2,Ibuprofen,Back pain,400,mg,As needed,Oral,25-MAY-2025,26-MAY-2025,No
+102-026,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2018,,Yes
+102-027,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUL-2019,,Yes
+102-027,2,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2023,,Yes
+102-028,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2017,,Yes
+102-029,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2022,,Yes
+102-030,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-SEP-2020,,Yes
+102-031,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2024,,Yes
+102-033,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-OCT-2021,,Yes
+102-034,1,Ibuprofen,Back pain,400,mg,As needed,Oral,10-AUG-2025,11-AUG-2025,No
+102-035,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-MAR-2017,,Yes
+103-001,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUL-2020,,Yes
+103-001,2,Acetaminophen,Headache,500,mg,As needed,Oral,31-AUG-2025,02-SEP-2025,No
+103-003,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2019,,Yes
+103-003,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-AUG-2020,,Yes
+103-004,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUN-2022,,Yes
+103-004,2,Paracetamol,Headache,500,mg,As needed,Oral,16-MAY-2025,20-MAY-2025,No
+103-005,1,Advil,Back pain,400,mg,As needed,Oral,09-MAY-2025,10-MAY-2025,No
+103-005,2,Paracetamol,Headache,500,mg,As needed,Oral,16-MAY-2025,17-MAY-2025,No
+103-006,1,Tylenol,Headache,500,mg,As needed,Oral,15-APR-2025,18-APR-2025,No
+103-007,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2017,,Yes
+103-007,2,Acetaminophen,Headache,500,mg,As needed,Oral,06-FEB-2025,10-FEB-2025,No
+103-009,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-MAY-2019,,Yes
+103-011,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-SEP-2024,,Yes
+103-016,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2023,,Yes
+103-017,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2022,,Yes
+103-019,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-OCT-2017,,Yes
+103-019,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2018,,Yes
+103-020,1,Acetaminophen,Headache,500,mg,As needed,Oral,02-AUG-2025,03-AUG-2025,No
+103-022,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-DEC-2018,,Yes
+103-023,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JUN-2022,,Yes
+103-023,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2023,,Yes
+103-025,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JAN-2018,,Yes
+103-025,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-MAR-2023,,Yes
+103-027,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2020,,Yes
+103-027,2,Tylenol,Headache,500,mg,As needed,Oral,13-APR-2025,15-APR-2025,No
+103-028,1,Advil,Back pain,400,mg,As needed,Oral,02-JUN-2025,03-JUN-2025,No
+103-029,1,Ibuprofen,Back pain,400,mg,As needed,Oral,13-JAN-2025,15-JAN-2025,No
+103-030,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2018,,Yes
+201-002,1,Tylenol,Headache,500,mg,As needed,Oral,25-APR-2025,28-APR-2025,No
+201-003,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2021,,Yes
+201-005,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JUN-2022,,Yes
+201-006,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUN-2021,,Yes
+201-007,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2022,,Yes
+201-007,2,Advil,Back pain,400,mg,As needed,Oral,17-MAY-2025,21-MAY-2025,No
+201-009,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2018,,Yes
+201-011,1,Tylenol,Headache,500,mg,As needed,Oral,28-AUG-2025,30-AUG-2025,No
+201-012,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JAN-2022,,Yes
+201-013,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-AUG-2020,,Yes
+201-013,2,Omeprazole,GERD,20,mg,Once daily,Oral,UN-APR-2017,,Yes
+201-014,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2022,,Yes
+201-015,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-FEB-2023,,Yes
+201-015,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-JUL-2024,,Yes
+201-016,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2017,,Yes
+201-017,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2020,,Yes
+201-017,2,Acetaminophen,Headache,500,mg,As needed,Oral,04-MAY-2025,06-MAY-2025,No
+201-018,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2019,,Yes
+201-019,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2019,,Yes
+201-029,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2020,,Yes
+201-030,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-SEP-2021,,Yes
+201-033,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-NOV-2020,,Yes
+201-034,1,Acetaminophen,Headache,500,mg,As needed,Oral,23-APR-2025,26-APR-2025,No
+201-035,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-MAY-2017,,Yes
+201-035,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-OCT-2018,,Yes
+202-002,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2022,,Yes
+202-002,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2017,,Yes
+202-004,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2021,,Yes
+202-006,1,Acetaminophen,Headache,500,mg,As needed,Oral,07-APR-2025,11-APR-2025,No
+202-006,2,Tylenol,Headache,500,mg,As needed,Oral,17-MAY-2025,19-MAY-2025,No
+202-007,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-AUG-2023,,Yes
+202-008,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2020,,Yes
+202-012,1,Paracetamol,Headache,500,mg,As needed,Oral,24-MAY-2025,26-MAY-2025,No
+202-014,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2017,,Yes
+202-015,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-MAY-2017,,Yes
+202-017,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-APR-2022,,Yes
+202-018,1,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-JAN-2017,,Yes
+202-020,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUN-2020,,Yes
+202-023,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2017,,Yes
+202-023,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2020,,Yes
+202-025,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JAN-2020,,Yes
+202-026,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2023,,Yes
+202-026,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-OCT-2023,,Yes
+202-027,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2020,,Yes
+301-004,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-MAY-2020,,Yes
+301-004,2,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2022,,Yes
+301-005,1,Paracetamol,Headache,500,mg,As needed,Oral,09-JUL-2025,13-JUL-2025,No
+301-006,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-MAY-2019,,Yes
+301-007,1,Omeprazole,GERD,20,mg,Once daily,Oral,UN-UNK-2022,,Yes
+301-009,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-OCT-2020,,Yes
+301-010,1,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-JUN-2017,,Yes
+301-010,2,Paracetamol,Headache,500,mg,As needed,Oral,17-MAY-2025,20-MAY-2025,No
+301-011,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JAN-2019,,Yes
+301-013,1,Tylenol,Headache,500,mg,As needed,Oral,17-APR-2025,20-APR-2025,No
+301-014,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-FEB-2023,,Yes
+301-014,2,Acetaminophen,Headache,500,mg,As needed,Oral,27-MAR-2025,30-MAR-2025,No
+301-015,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2020,,Yes
+301-015,2,Metformin,Type 2 diabetes,500,mg,Twice daily,Oral,UN-UNK-2020,,Yes
+301-015,3,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-UNK-2022,,Yes
+301-016,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-OCT-2019,,Yes
+301-016,2,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-JUN-2017,,Yes
+301-017,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-SEP-2024,,Yes
+301-017,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-AUG-2020,,Yes
+301-017,3,Cetirizine,Seasonal allergy,10,mg,Once daily,Oral,UN-DEC-2019,,Yes
+301-019,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2023,,Yes
+301-020,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-UNK-2018,,Yes
+301-020,2,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-UNK-2018,,Yes
+301-020,3,Tylenol,Headache,500,mg,As needed,Oral,12-AUG-2025,16-AUG-2025,No
+301-023,1,Lipitor,Hypercholesterolemia,20,mg,Once daily,Oral,UN-FEB-2020,,Yes
+301-026,1,Tylenol,Headache,500,mg,As needed,Oral,11-JUN-2025,14-JUN-2025,No
+301-027,1,Atorvastatin,Hypercholesterolemia,20,mg,Once daily,Oral,UN-JUN-2019,,Yes
+301-030,1,Aspirin 81mg,CV prophylaxis,81,mg,Once daily,Oral,UN-FEB-2017,,Yes
+301-030,2,Acetaminophen,Headache,500,mg,As needed,Oral,16-JUL-2025,18-JUL-2025,No

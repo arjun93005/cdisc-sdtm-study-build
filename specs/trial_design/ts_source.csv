@@ -1,0 +1,36 @@
+TSPARMCD,TSVAL,TSVALNF,TSVCDREF,TSVCDVER,Note
+TITLE,"A Phase II, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study of ZX-101 in Adults with Stage 1-2 Essential Hypertension",,,,
+TPHASE,PHASE II TRIAL,,CDISC CT,,
+STYPE,INTERVENTIONAL,,CDISC CT,,
+TTYPE,EFFICACY,,CDISC CT,,
+TTYPE,SAFETY,,CDISC CT,,
+TTYPE,DOSE RESPONSE,,CDISC CT,,
+INTMODEL,PARALLEL,,CDISC CT,,
+TBLIND,DOUBLE BLIND,,CDISC CT,,
+TCNTRL,PLACEBO,,CDISC CT,,
+RANDOM,Y,,CDISC CT,,
+ADDON,N,,CDISC CT,,
+HLTSUBJI,N,,CDISC CT,,
+TINDTP,TREATMENT,,CDISC CT,,
+SEXPOP,BOTH,,CDISC CT,,
+AGEMIN,P18Y,,ISO 8601,,
+AGEMAX,P75Y,,ISO 8601,,
+LENGTH,P16W,,ISO 8601,,2-week screening + 12-week treatment + 2-week follow-up
+NARMS,3,,,,
+PLANSUB,180,,,,
+ACTSUB,{ACTSUB},,,,Number of randomised subjects (derived from DM)
+SSTDTC,{SSTDTC},,ISO 8601,,First informed consent date (derived from DM)
+SENDTC,{SENDTC},,ISO 8601,,Last subject's end of participation (derived from DM)
+TRT,ZX-101,,,,Fictional investigational product; no UNII exists
+INDIC,Essential hypertension,,,,SNOMED CT code to be added from a licensed SNOMED release before submission
+OBJPRIM,To evaluate the effect of ZX-101 10 mg and 20 mg once daily compared with placebo on seated systolic blood pressure after 12 weeks of treatment,,,,
+OBJSEC,To evaluate the safety and tolerability of ZX-101 10 mg and 20 mg once daily over 12 weeks,,,,
+OUTMSPRI,Change from baseline in mean seated systolic blood pressure at Week 12,,,,
+OUTMSSEC,Change from baseline in mean seated diastolic blood pressure at Week 12,,,,
+FCNTRY,USA,,ISO 3166-1 alpha-3,,
+FCNTRY,DEU,,ISO 3166-1 alpha-3,,
+FCNTRY,IND,,ISO 3166-1 alpha-3,,
+SPONSOR,ZX Therapeutics (fictional),,,,
+REGID,,NA,,,Fictional study - not registered
+SDTMVER,2.0,,,,
+SDTIGVER,3.4,,,,

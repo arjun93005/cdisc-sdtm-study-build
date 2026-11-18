@@ -1,0 +1,452 @@
+<!doctype html><html lang='en'><head><meta charset='utf-8'><title>ZX-201 SDRG</title><style>body{font-family:Segoe UI,Arial,sans-serif;max-width:1050px;margin:24px auto;padding:0 16px;color:#1b1b1b;line-height:1.45}table{border-collapse:collapse;font-size:12.5px;margin:8px 0 16px}th{background:#2b5c8a;color:#fff;text-align:left}th,td{border:1px solid #c9d3dd;padding:4px 7px;vertical-align:top}h2{border-bottom:2px solid #2b5c8a;padding-bottom:3px}blockquote{background:#fff7e0;border-left:4px solid #e0a800;margin:0;padding:6px 12px}code{background:#f1f3f5;padding:1px 4px}</style></head><body><h1>Study Data Reviewer's Guide - ZX-201 (SDTM)</h1>
+<blockquote>
+<p><strong>Simulated study.</strong> All data are synthetic and were generated for a clinical-programming portfolio. Structure follows the PHUSE clinical Study Data Reviewer's Guide (cSDRG) template.</p>
+</blockquote>
+<p><em>Generated 2026-11-18 from the final datasets and metadata by <code>R/40_build_sdrg.R</code>.</em></p>
+<h2>1. Introduction</h2>
+<h3>1.1 Purpose</h3>
+<p>This guide gives a reviewer the context needed to use the ZX-201 SDTM tabulation datasets: standards used, protocol design as represented in the trial design domains, sponsor decisions in mapping the collected data, and an explanation of every conformance finding that remains in the final package.</p>
+<h3>1.2 Study Data Standards and Dictionary Inventory</h3>
+<table>
+<thead>
+<tr>
+<th>Standard or Dictionary</th>
+<th>Version</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SDTM</td>
+<td>2.0</td>
+<td></td>
+</tr>
+<tr>
+<td>SDTM Implementation Guide</td>
+<td>3.4</td>
+<td>--LOBXFL used instead of --BLFL</td>
+</tr>
+<tr>
+<td>CDISC Controlled Terminology</td>
+<td>2026-09-25</td>
+<td>NCI EVS release, pinned in specs/ct/CT_VERSION.txt</td>
+</tr>
+<tr>
+<td>CDASH</td>
+<td>aligned</td>
+<td>eCRF field names follow CDASH (specs/ecrf_spec.csv)</td>
+</tr>
+<tr>
+<td>Define-XML</td>
+<td>2.1</td>
+<td>define.xml + define.html</td>
+</tr>
+<tr>
+<td>MedDRA</td>
+<td>illustrative</td>
+<td>Not licensed MedDRA - see section 4</td>
+</tr>
+<tr>
+<td>WHODrug Global</td>
+<td>illustrative</td>
+<td>ATC-level class text and code only</td>
+</tr>
+</tbody>
+</table>
+<h3>1.3 Source Data Used for Dataset Creation</h3>
+<p>SDTM datasets were created directly from source extracts (no legacy conversion): EDC form extracts (<code>data/raw/raw_*.csv</code>), the IxRS randomisation and kit lists (unblinded at database lock), the central-laboratory vendor transfer (<code>central_lab_transfer.csv</code>) and Data Management coding exports. See <code>docs/data_flow_plan.md</code> for the full data flow.</p>
+<h2>2. Protocol Description</h2>
+<h3>2.1 Protocol Number and Title</h3>
+<p><strong>ZX-201</strong> - A Phase II, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study of ZX-101 in Adults with Stage 1-2 Essential Hypertension</p>
+<h3>2.2 Protocol Design in Relation to the Trial Design Datasets</h3>
+<p>Subjects are screened for up to 14 days, randomised 1:1:1 (site-stratified blocks of 6) to placebo, ZX-101 10 mg or ZX-101 20 mg once daily for 12 weeks, and followed up 14 days after the last dose. Each arm therefore has three elements (TA):</p>
+<table>
+<thead>
+<tr>
+<th>ARMCD</th>
+<th>ARM</th>
+<th>TAETORD</th>
+<th>ETCD</th>
+<th>ELEMENT</th>
+<th>EPOCH</th>
+<th>TABRANCH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PBO</td>
+<td>Placebo</td>
+<td>1</td>
+<td>SCRN</td>
+<td>Screening</td>
+<td>SCREENING</td>
+<td>Randomized to Placebo</td>
+</tr>
+<tr>
+<td>PBO</td>
+<td>Placebo</td>
+<td>2</td>
+<td>PBO</td>
+<td>Placebo</td>
+<td>TREATMENT</td>
+<td></td>
+</tr>
+<tr>
+<td>PBO</td>
+<td>Placebo</td>
+<td>3</td>
+<td>FU</td>
+<td>Follow-up</td>
+<td>FOLLOW-UP</td>
+<td></td>
+</tr>
+<tr>
+<td>ZX10</td>
+<td>ZX-101 10 mg</td>
+<td>1</td>
+<td>SCRN</td>
+<td>Screening</td>
+<td>SCREENING</td>
+<td>Randomized to ZX-101 10 mg</td>
+</tr>
+<tr>
+<td>ZX10</td>
+<td>ZX-101 10 mg</td>
+<td>2</td>
+<td>ZX10</td>
+<td>ZX-101 10 mg</td>
+<td>TREATMENT</td>
+<td></td>
+</tr>
+<tr>
+<td>ZX10</td>
+<td>ZX-101 10 mg</td>
+<td>3</td>
+<td>FU</td>
+<td>Follow-up</td>
+<td>FOLLOW-UP</td>
+<td></td>
+</tr>
+<tr>
+<td>ZX20</td>
+<td>ZX-101 20 mg</td>
+<td>1</td>
+<td>SCRN</td>
+<td>Screening</td>
+<td>SCREENING</td>
+<td>Randomized to ZX-101 20 mg</td>
+</tr>
+<tr>
+<td>ZX20</td>
+<td>ZX-101 20 mg</td>
+<td>2</td>
+<td>ZX20</td>
+<td>ZX-101 20 mg</td>
+<td>TREATMENT</td>
+<td></td>
+</tr>
+<tr>
+<td>ZX20</td>
+<td>ZX-101 20 mg</td>
+<td>3</td>
+<td>FU</td>
+<td>Follow-up</td>
+<td>FOLLOW-UP</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Planned visits (TV):</p>
+<table>
+<thead>
+<tr>
+<th>VISITNUM</th>
+<th>VISIT</th>
+<th>VISITDY</th>
+<th>TVSTRL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>SCREENING</td>
+<td>-14</td>
+<td>Up to 14 days before Day 1 (after informed consent)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>DAY 1</td>
+<td>1</td>
+<td>Day 1, before first dose of study drug</td>
+</tr>
+<tr>
+<td>3</td>
+<td>WEEK 2</td>
+<td>15</td>
+<td>Day 15 (window -2/+3 days)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>WEEK 4</td>
+<td>29</td>
+<td>Day 29 (window -2/+3 days)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>WEEK 8</td>
+<td>57</td>
+<td>Day 57 (window -2/+3 days)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>WEEK 12</td>
+<td>85</td>
+<td>Day 85 (window -2/+3 days)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>FOLLOW-UP</td>
+<td>99</td>
+<td>14 days after last dose (window -1/+3 days)</td>
+</tr>
+</tbody>
+</table>
+<h2>3. Subject Data Description</h2>
+<h3>3.1 Overview</h3>
+<p>200 subjects were screened, 180 randomised and 179 dosed. Randomised by arm: Placebo n=59; ZX-101 10 mg n=59; ZX-101 20 mg n=62.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset</th>
+<th>Label</th>
+<th>Class</th>
+<th>Records</th>
+<th>Subjects</th>
+<th>Structure</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TA</td>
+<td>Trial Arms</td>
+<td>TRIAL DESIGN</td>
+<td>9</td>
+<td>-</td>
+<td>One record per planned Element per Arm</td>
+</tr>
+<tr>
+<td>TE</td>
+<td>Trial Elements</td>
+<td>TRIAL DESIGN</td>
+<td>5</td>
+<td>-</td>
+<td>One record per planned Element</td>
+</tr>
+<tr>
+<td>TV</td>
+<td>Trial Visits</td>
+<td>TRIAL DESIGN</td>
+<td>7</td>
+<td>-</td>
+<td>One record per planned Visit per Arm</td>
+</tr>
+<tr>
+<td>TS</td>
+<td>Trial Summary</td>
+<td>TRIAL DESIGN</td>
+<td>35</td>
+<td>-</td>
+<td>One record per trial summary parameter value</td>
+</tr>
+<tr>
+<td>DM</td>
+<td>Demographics</td>
+<td>SPECIAL PURPOSE</td>
+<td>200</td>
+<td>200</td>
+<td>One record per subject</td>
+</tr>
+<tr>
+<td>SE</td>
+<td>Subject Elements</td>
+<td>SPECIAL PURPOSE</td>
+<td>555</td>
+<td>200</td>
+<td>One record per actual Element per subject</td>
+</tr>
+<tr>
+<td>SV</td>
+<td>Subject Visits</td>
+<td>SPECIAL PURPOSE</td>
+<td>1257</td>
+<td>200</td>
+<td>One record per actual visit per subject</td>
+</tr>
+<tr>
+<td>CM</td>
+<td>Concomitant/Prior Medications</td>
+<td>INTERVENTIONS</td>
+<td>164</td>
+<td>115</td>
+<td>One record per recorded medication occurrence per subject</td>
+</tr>
+<tr>
+<td>EX</td>
+<td>Exposure</td>
+<td>INTERVENTIONS</td>
+<td>530</td>
+<td>179</td>
+<td>One record per constant dosing interval per subject</td>
+</tr>
+<tr>
+<td>AE</td>
+<td>Adverse Events</td>
+<td>EVENTS</td>
+<td>284</td>
+<td>148</td>
+<td>One record per adverse event per subject</td>
+</tr>
+<tr>
+<td>DS</td>
+<td>Disposition</td>
+<td>EVENTS</td>
+<td>580</td>
+<td>200</td>
+<td>One record per disposition status or protocol milestone per subject</td>
+</tr>
+<tr>
+<td>LB</td>
+<td>Laboratory Test Results</td>
+<td>FINDINGS</td>
+<td>6606</td>
+<td>200</td>
+<td>One record per lab test per visit per subject</td>
+</tr>
+<tr>
+<td>VS</td>
+<td>Vital Signs</td>
+<td>FINDINGS</td>
+<td>11457</td>
+<td>200</td>
+<td>One record per vital sign measurement per replicate per visit per subject</td>
+</tr>
+<tr>
+<td>SUPPDM</td>
+<td>Supplemental Qualifiers for DM</td>
+<td>RELATIONSHIP</td>
+<td>14</td>
+<td>7</td>
+<td>One record per supplemental qualifier per related parent domain record</td>
+</tr>
+</tbody>
+</table>
+<h3>3.2 Annotated CRF</h3>
+<p><code>acrf.pdf</code> is generated from the eCRF specification (<code>specs/ecrf_spec.csv</code>) by <code>R/11_annotated_crf.R</code>. Page 1 is a cover/contents page; each form starts on its own page, and the define.xml <code>PDFPageRef</code> values point to these physical pages. Central lab data and IxRS data are not on the CRF.</p>
+<h3>3.3 SDTM Subject Domains - sponsor decisions</h3>
+<ul>
+<li><strong>DM</strong> includes screen failures (ARMNRS = 'SCREEN FAILURE', null ARMCD/ARM) and one subject randomised but never dosed (ARMNRS = 'ASSIGNED, NOT TREATED'). RFSTDTC/RFENDTC = first/last dose; for the not-treated subject both are the randomisation date. German sites collect year of birth only, so BRTHDTC is a partial date and AGE is the collected age; elsewhere AGE is derived from BRTHDTC and RFICDTC.</li>
+<li><strong>SUPPDM</strong> holds RACE1/RACE2 for subjects with more than one race checked (RACE = 'MULTIPLE').</li>
+<li><strong>SE / EPOCH</strong>: elements are SCREENING (consent to first dose), TREATMENT (first dose to the day after last dose) and FOLLOW-UP. EPOCH on every observation is assigned from these boundaries; Day 1 assessments are protocol-mandated pre-dose and are SCREENING (time is compared with the first-dose time).</li>
+<li><strong>EX</strong>: one record per dispensed kit. EXTRT and EXDOSE come from the unblinded IxRS kit list joined on the kit number (EXREFID); all subjects received their randomised treatment.</li>
+<li><strong>AE / CM</strong>: partial dates are kept at collected precision; no imputation in SDTM. Ongoing events use --ENRTPT = 'ONGOING' with --ENTPT = 'END OF STUDY'.</li>
+<li><strong>VS</strong>: seated blood pressure is collected in triplicate (VSREPNUM 1-3); the mean is derived in ADaM, not SDTM. Temperature is collected in C or F (US sites) and standardised to C in VSSTRESN. Height is collected at Screening only.</li>
+<li><strong>LB</strong>: vendor test codes and units are mapped through <code>specs/lab_test_mapping.csv</code>. Vendor unit <code>10^3/uL</code> is a CDISC CT synonym, so LBORRESU uses the submission value <code>10^9/L</code>. Results reported as <code>&lt;x</code> keep the character result in LBSTRESC with null LBSTRESN. Haemolysed potassium samples are LBSTAT = 'NOT DONE'.</li>
+<li><strong>Baseline</strong>: --LOBXFL (SDTMIG 3.4) flags the last non-missing result on or before first dose per test; for triplicate BP this is the third replicate. Analysis baseline is defined in ADaM.</li>
+</ul>
+<h2>4. Data Conformance Summary</h2>
+<h3>4.1 Conformance Inputs</h3>
+<p>Conformance was assessed with the study's own rule set (<code>R/30_conformance_checks.R</code>, 29 rules covering structure, ISO 8601, study days, referential integrity, cross-domain safety consistency and plausibility) plus a controlled-terminology check against the pinned CT release (<code>R/01_ct_check.R</code>) and define.xml integrity checks. A production submission would additionally be run through the FDA-accepted validator (e.g. Pinnacle 21 Enterprise / CDISC CORE); those results are not available for this portfolio build.</p>
+<p>Result: <strong>24 rules passed</strong>, 4 raised warnings and 1 failed. Each non-passing rule is explained below.</p>
+<h3>4.2 Issues Summary</h3>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Severity</th>
+<th>Description</th>
+<th>Findings</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ZX-002</td>
+<td>Warning</td>
+<td>SDTMIG-expected MedDRA code variables present (AELLTCD, AEPTCD, AEHLTCD, AEHLGTCD, AEBDSYCD, AESOCCD)</td>
+<td>1</td>
+<td>A licensed MedDRA dictionary was not available for this portfolio study; coding uses an illustrative MedDRA-style hierarchy (term names only). In a real submission AELLTCD-AESOCCD would be populated from the MedDRA version listed in section 1.3.</td>
+</tr>
+<tr>
+<td>ZX-008</td>
+<td>Error</td>
+<td>Start date/time on or before end date/time</td>
+<td>1</td>
+<td>One AE (subject listed in the issue file) has an end date three days before its start date. The site was queried; the query was open at database lock and the data are submitted as collected. No imputation was applied in SDTM. In ADaM this record would be handled by the imputation rules in the SAP.</td>
+</tr>
+<tr>
+<td>ZX-012</td>
+<td>Warning</td>
+<td>EPOCH populated (from TA) whenever the observation date is complete</td>
+<td>10</td>
+<td>EPOCH is null only where AESTDTC is a partial date (day unknown). EPOCH cannot be assigned without a complete date; SDTM keeps dates at collected precision.</td>
+</tr>
+<tr>
+<td>ZX-025</td>
+<td>Warning</td>
+<td>Plausibility: weight change &gt; 20% from baseline (VSLOBXFL) record</td>
+<td>1</td>
+<td>One Week 4 weight value was entered in pounds instead of kilograms at a US site (value is consistent with the subject's weight x 2.2). Submitted as collected; the issue is flagged for the clinical team and excluded from weight analyses per the SAP data-handling rules.</td>
+</tr>
+<tr>
+<td>ZX-029</td>
+<td>Warning</td>
+<td>Codelists and terms exist in the pinned CDISC CT release</td>
+<td>2</td>
+<td>The RACE (C74457) and ETHNIC (C66790) codelists are not present in the CDISC CT release pinned for this build (2026-09-25). Values follow the SDTMIG v3.4 DM assumptions and the CDASH CRF; they are documented as sponsor codelists in define.xml.</td>
+</tr>
+</tbody>
+</table>
+<h2>5. Appendix - Program Inventory</h2>
+<table>
+<thead>
+<tr>
+<th>Program</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R/00_simulate_raw_edc.R</td>
+<td>Generate synthetic source extracts</td>
+</tr>
+<tr>
+<td>R/01_ct_check.R</td>
+<td>Validate spec codelists against CDISC CT; resolve NCI codes</td>
+</tr>
+<tr>
+<td>R/sdtm/*.R</td>
+<td>One program per SDTM domain (trial design, DM/SUPPDM, SV/SE, EX, AE, CM, DS, VS, LB)</td>
+</tr>
+<tr>
+<td>R/10_define_xml.R</td>
+<td>Define-XML 2.1 + define.html + integrity checks</td>
+</tr>
+<tr>
+<td>R/11_annotated_crf.R</td>
+<td>Annotated CRF (HTML + PDF)</td>
+</tr>
+<tr>
+<td>R/30_conformance_checks.R</td>
+<td>Conformance rules</td>
+</tr>
+<tr>
+<td>R/40_build_sdrg.R</td>
+<td>This document</td>
+</tr>
+<tr>
+<td>run_all.R</td>
+<td>Runs everything in order with logrx logs and a log scan</td>
+</tr>
+</tbody>
+</table>
+</body></html>

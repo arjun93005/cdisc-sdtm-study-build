@@ -1,0 +1,12 @@
+VERBATIM_UPPER,DECOD,ATC_TEXT,ATC_CODE,DICTIONARY
+TYLENOL,PARACETAMOL,ANILIDES,N02BE,WHODrug-style illustrative coding (not licensed WHODrug)
+PARACETAMOL,PARACETAMOL,ANILIDES,N02BE,WHODrug-style illustrative coding (not licensed WHODrug)
+ACETAMINOPHEN,PARACETAMOL,ANILIDES,N02BE,WHODrug-style illustrative coding (not licensed WHODrug)
+IBUPROFEN,IBUPROFEN,PROPIONIC ACID DERIVATIVES,M01AE,WHODrug-style illustrative coding (not licensed WHODrug)
+ADVIL,IBUPROFEN,PROPIONIC ACID DERIVATIVES,M01AE,WHODrug-style illustrative coding (not licensed WHODrug)
+ATORVASTATIN,ATORVASTATIN,HMG COA REDUCTASE INHIBITORS,C10AA,WHODrug-style illustrative coding (not licensed WHODrug)
+LIPITOR,ATORVASTATIN,HMG COA REDUCTASE INHIBITORS,C10AA,WHODrug-style illustrative coding (not licensed WHODrug)
+METFORMIN,METFORMIN,BIGUANIDES,A10BA,WHODrug-style illustrative coding (not licensed WHODrug)
+OMEPRAZOLE,OMEPRAZOLE,PROTON PUMP INHIBITORS,A02BC,WHODrug-style illustrative coding (not licensed WHODrug)
+CETIRIZINE,CETIRIZINE,PIPERAZINE DERIVATIVES,R06AE,WHODrug-style illustrative coding (not licensed WHODrug)
+ASPIRIN 81MG,ACETYLSALICYLIC ACID,PLATELET AGGREGATION INHIBITORS EXCL. HEPARIN,B01AC,WHODrug-style illustrative coding (not licensed WHODrug)

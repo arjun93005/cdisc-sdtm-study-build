@@ -1,0 +1,54 @@
+FormOrder,FormOID,FormName,Domain,FieldOrder,FieldOID,Question,CDASHVariable,ControlType,Responses,Required,EditCheck,SDTMAnnotation
+1,F_IC,Informed Consent,DS,1,ICDAT,Date informed consent signed,DSSTDAT,Date (DD-MON-YYYY),,Y,Must be on or before every other date for the subject,DM.RFICDTC; DS.DSSTDTC when DSDECOD = 'INFORMED CONSENT OBTAINED' (DSCAT = 'PROTOCOL MILESTONE')
+2,F_DM,Demographics,DM,1,SUBJID,Subject number,SUBJID,Text (auto),,Y,Format SSS-NNN (site-sequence),DM.SUBJID; USUBJID = STUDYID-SUBJID
+2,F_DM,Demographics,DM,2,BRTHDAT,Date of birth,BRTHDAT,Date (partial allowed),,Y,German sites: year only (UN-UNK-YYYY),DM.BRTHDTC
+2,F_DM,Demographics,DM,3,AGE,Age (only where full date of birth may not be collected),AGE,Integer,,N,18-75 inclusive,DM.AGE (used when BRTHDTC is partial)
+2,F_DM,Demographics,DM,4,SEX,Sex,SEX,Radio,Male | Female,Y,,DM.SEX
+2,F_DM,Demographics,DM,5,ETHNIC,Ethnicity,ETHNIC,Radio,Hispanic or Latino | Not Hispanic or Latino | Not reported,Y,,DM.ETHNIC
+2,F_DM,Demographics,DM,6,RACE_*,Race (check all that apply),RACE,Checkbox,American Indian or Alaska Native | Asian | Black or African American | Native Hawaiian or Other Pacific Islander | White,Y,At least one box checked,DM.RACE; RACE = 'MULTIPLE' when >1 checked and SUPPDM.QVAL where QNAM = 'RACE1' / 'RACE2'
+3,F_SV,Visit Date,SV,1,VISDAT,Visit date,VISDAT,Date (DD-MON-YYYY),,Y,Within protocol visit window (soft check),SV.SVSTDTC; SV.SVENDTC; VISITNUM/VISIT from EDC folder (see TV)
+4,F_VS,Vital Signs,VS,1,VSDAT,Date of measurements,VSDAT,Date (DD-MON-YYYY),,Y,Must equal the Visit Date,VS.VSDTC (date part)
+4,F_VS,Vital Signs,VS,2,VSTIM,Time of measurements,VSTIM,Time (HH:MM),,Y,Day 1: must be before first-dose time,VS.VSDTC (time part)
+4,F_VS,Vital Signs,VS,3,VSPOS,Position,VSPOS,Pre-filled,Sitting,Y,,VS.VSPOS when VSTESTCD in ('SYSBP' 'DIABP' 'PULSE')
+4,F_VS,Vital Signs,VS,4,SYSBP_1 / SYSBP_2 / SYSBP_3,Systolic blood pressure - reading 1 / 2 / 3 (mmHg),VSORRES,Integer x3,,Y,60-250 mmHg,VS.VSORRES when VSTESTCD = 'SYSBP' (VSREPNUM = 1 / 2 / 3); VSORRESU = 'mmHg'
+4,F_VS,Vital Signs,VS,5,DIABP_1 / DIABP_2 / DIABP_3,Diastolic blood pressure - reading 1 / 2 / 3 (mmHg),VSORRES,Integer x3,,Y,30-150 mmHg; < systolic,VS.VSORRES when VSTESTCD = 'DIABP' (VSREPNUM = 1 / 2 / 3); VSORRESU = 'mmHg'
+4,F_VS,Vital Signs,VS,6,BPND,Blood pressure not done,VSSTAT,Checkbox,Not done,N,If checked all BP readings must be blank,VS.VSSTAT = 'NOT DONE' when VSTESTCD in ('SYSBP' 'DIABP')
+4,F_VS,Vital Signs,VS,7,BPREASND,Reason not done,VSREASND,Text,,N,Required if BPND checked,VS.VSREASND
+4,F_VS,Vital Signs,VS,8,PULSE,Pulse rate (beats/min),VSORRES,Integer,,Y,30-200,VS.VSORRES when VSTESTCD = 'PULSE'; VSORRESU = 'beats/min'
+4,F_VS,Vital Signs,VS,9,TEMP / TEMPU,Body temperature and unit,VSORRES / VSORRESU,Decimal + Radio,C | F,Y,34-42 C or 93-108 F,VS.VSORRES / VS.VSORRESU when VSTESTCD = 'TEMP'
+4,F_VS,Vital Signs,VS,10,WEIGHT,Weight (kg),VSORRES,Decimal,,Y,30-250 kg; change > 10% from previous visit triggers query,VS.VSORRES when VSTESTCD = 'WEIGHT'; VSORRESU = 'kg'
+4,F_VS,Vital Signs,VS,11,HEIGHT,Height (cm) - Screening only,VSORRES,Integer,,Y,120-220 cm,VS.VSORRES when VSTESTCD = 'HEIGHT'; VSORRESU = 'cm'
+5,F_EX,Study Drug Administration,EX,1,KITNO,Kit number dispensed,EXREFID,Text,,Y,Must exist in IxRS kit list for the subject,EX.EXREFID; EX.EXTRT and EX.EXDOSE via IxRS kit list (unblinded)
+5,F_EX,Study Drug Administration,EX,2,EXSTDAT,Start date,EXSTDAT,Date (DD-MON-YYYY),,Y,,EX.EXSTDTC (date part)
+5,F_EX,Study Drug Administration,EX,3,EXSTTIM,Time of first dose (Day 1 only),EXSTTIM,Time (HH:MM),,N,Required at Day 1,EX.EXSTDTC (time part)
+5,F_EX,Study Drug Administration,EX,4,EXENDAT,End date,EXENDAT,Date (DD-MON-YYYY),,Y,>= start date,EX.EXENDTC
+5,F_EX,Study Drug Administration,EX,5,EXTABS,Number of tablets per day,EXDOSTXT,Integer,,Y,Must be 1,EX.EXDOSE = EXTABS x kit strength; EXDOSU = 'mg'; EXDOSFRM = 'TABLET'
+5,F_EX,Study Drug Administration,EX,6,EXFREQ,Frequency,EXDOSFRQ,Pre-filled,Once daily,Y,,EX.EXDOSFRQ = 'QD'
+5,F_EX,Study Drug Administration,EX,7,EXROUTE,Route,EXROUTE,Pre-filled,Oral,Y,,EX.EXROUTE = 'ORAL'
+6,F_AE,Adverse Events,AE,1,AESPID,AE number,AESPID,Integer (auto),,Y,,AE.AESPID
+6,F_AE,Adverse Events,AE,2,AETERM,Adverse event (verbatim term),AETERM,Text,,Y,,AE.AETERM; coded to AELLT / AEDECOD / AEHLT / AEHLGT / AEBODSYS / AESOC
+6,F_AE,Adverse Events,AE,3,AESTDAT,Start date,AESTDAT,Date (partial allowed),,Y,>= informed consent date,AE.AESTDTC
+6,F_AE,Adverse Events,AE,4,AEENDAT,End date,AEENDAT,Date (partial allowed),,N,>= start date; blank if ongoing,AE.AEENDTC
+6,F_AE,Adverse Events,AE,5,AEONGO,Ongoing?,AEONGO,Radio,Yes | No,Y,,AE.AEENRTPT = 'ONGOING' and AE.AEENTPT = 'END OF STUDY' when Yes
+6,F_AE,Adverse Events,AE,6,AESEV,Severity,AESEV,Radio,Mild | Moderate | Severe,Y,,AE.AESEV
+6,F_AE,Adverse Events,AE,7,AESER,Serious?,AESER,Radio,Yes | No,Y,If Yes at least one seriousness criterion = Yes,AE.AESER
+6,F_AE,Adverse Events,AE,8,AESHOSP,Requires or prolongs hospitalisation?,AESHOSP,Radio,Yes | No,Y,,AE.AESHOSP
+6,F_AE,Adverse Events,AE,9,AESDTH,Results in death?,AESDTH,Radio,Yes | No,Y,If Yes outcome must be Fatal,AE.AESDTH
+6,F_AE,Adverse Events,AE,10,AEREL,Relationship to study drug,AEREL,Radio,Not related | Unlikely related | Possibly related | Related,Y,,AE.AEREL
+6,F_AE,Adverse Events,AE,11,AEACN,Action taken with study drug,AEACN,Radio,Dose not changed | Drug withdrawn | Not applicable,Y,,AE.AEACN
+6,F_AE,Adverse Events,AE,12,AEOUT,Outcome,AEOUT,Radio,Recovered/resolved | Recovering/resolving | Not recovered/not resolved | Fatal,Y,,AE.AEOUT
+7,F_CM,Concomitant Medications,CM,1,CMSPID,Medication number,CMSPID,Integer (auto),,Y,,CM.CMSPID
+7,F_CM,Concomitant Medications,CM,2,CMTRT,Medication name,CMTRT,Text,,Y,,CM.CMTRT; coded to CMDECOD / CMCLAS / CMCLASCD
+7,F_CM,Concomitant Medications,CM,3,CMINDC,Indication,CMINDC,Text,,Y,,CM.CMINDC
+7,F_CM,Concomitant Medications,CM,4,CMDSTXT,Dose,CMDSTXT,Decimal,,Y,,CM.CMDOSE
+7,F_CM,Concomitant Medications,CM,5,CMDOSU,Dose unit,CMDOSU,Dropdown,mg,Y,,CM.CMDOSU
+7,F_CM,Concomitant Medications,CM,6,CMFREQ,Frequency,CMDOSFRQ,Dropdown,Once daily | Twice daily | As needed,Y,,CM.CMDOSFRQ
+7,F_CM,Concomitant Medications,CM,7,CMROUTE,Route,CMROUTE,Dropdown,Oral,Y,,CM.CMROUTE
+7,F_CM,Concomitant Medications,CM,8,CMSTDAT,Start date,CMSTDAT,Date (partial allowed),,Y,,CM.CMSTDTC
+7,F_CM,Concomitant Medications,CM,9,CMENDAT,End date,CMENDAT,Date (partial allowed),,N,>= start date; blank if ongoing,CM.CMENDTC
+7,F_CM,Concomitant Medications,CM,10,CMONGO,Ongoing?,CMONGO,Radio,Yes | No,Y,,CM.CMENRTPT = 'ONGOING' and CM.CMENTPT = 'END OF STUDY' when Yes
+8,F_EOS,End of Study,DS,1,DSCOMPL,Did the subject complete the study?,DSCOMPL,Radio,Yes | No,Y,,[NOT SUBMITTED] - used to derive DS.DSDECOD = 'COMPLETED'
+8,F_EOS,End of Study,DS,2,DSREAS,Primary reason for not completing,DSDECOD,Dropdown,Adverse event | Death | Lack of efficacy | Lost to follow-up | Screen failure | Withdrawal by subject,N,Required if DSCOMPL = No,DS.DSDECOD (DSCAT = 'DISPOSITION EVENT')
+8,F_EOS,End of Study,DS,3,DSSPEC,Specify,DSTERM,Text,,N,,DS.DSTERM (DSDECOD when blank)
+8,F_EOS,End of Study,DS,4,DSSTDAT,Date of completion / discontinuation,DSSTDAT,Date (DD-MON-YYYY),,Y,,DS.DSSTDTC
+8,F_EOS,End of Study,DS,5,DTHDAT,Date of death,DTHDAT,Date (DD-MON-YYYY),,N,Required if reason = Death,DM.DTHDTC; DM.DTHFL = 'Y'

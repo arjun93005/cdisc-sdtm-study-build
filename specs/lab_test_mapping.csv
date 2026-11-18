@@ -1,0 +1,10 @@
+VENDOR_CODE,LBTESTCD,LBTEST,LBCAT,LBSPEC,CONV_UNIT,CONV_UNIT_CT,SI_UNIT,FACTOR,SI_DECIMALS,SOURCE_OF_FACTOR
+SGPT,ALT,Alanine Aminotransferase,CHEMISTRY,SERUM,U/L,U/L,U/L,1,0,Identity
+SGOT,AST,Aspartate Aminotransferase,CHEMISTRY,SERUM,U/L,U/L,U/L,1,0,Identity
+CREA,CREAT,Creatinine,CHEMISTRY,SERUM,mg/dL,mg/dL,umol/L,88.42,0,"1 mg/dL = 88.42 umol/L (MW 113.12 g/mol)"
+POT,K,Potassium,CHEMISTRY,SERUM,mEq/L,mEq/L,mmol/L,1,1,Monovalent ion: mEq/L = mmol/L
+SOD,SODIUM,Sodium,CHEMISTRY,SERUM,mEq/L,mEq/L,mmol/L,1,0,Monovalent ion: mEq/L = mmol/L
+GLU,GLUC,Glucose,CHEMISTRY,SERUM,mg/dL,mg/dL,mmol/L,0.05551,1,"1 mg/dL = 0.05551 mmol/L (MW 180.16 g/mol)"
+HGB,HGB,Hemoglobin,HEMATOLOGY,BLOOD,g/dL,g/dL,g/L,10,0,1 g/dL = 10 g/L
+WBC,WBC,Leukocytes,HEMATOLOGY,BLOOD,10^3/uL,10^9/L,10^9/L,1,1,"Vendor unit 10^3/uL is a CDISC CT synonym of submission value 10^9/L (C67255)"
+PLT,PLAT,Platelets,HEMATOLOGY,BLOOD,10^3/uL,10^9/L,10^9/L,1,0,"Vendor unit 10^3/uL is a CDISC CT synonym of submission value 10^9/L (C67255)"
